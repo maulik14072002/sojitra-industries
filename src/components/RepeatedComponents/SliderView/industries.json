@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "/img/home/oil-pump.png",
+        "Industries_name": "Oil & pump",
+        "Def": "High-quality oil and gas components for optimal industrial performance."
+    },
+    {   
+        "id": 2,
+       "img": "/img/home/electric-factory.png",
+        "Industries_name": "Electric",
+        "Def": "Supplying durable electrical parts trusted by modern manufacturers."
+    },
+    {
+        "id": 3,
+        "img": "/img/home/technology.png",
+        "Industries_name": "Electronics",
+        "Def": "Supplying high-quality electronic components for seamless performance."
+    },
+    {
+        "id": 4,
+        "img": "/img/home/construction-site.png",
+        "Industries_name": "Construction",
+        "Def": "Supplying high-performance construction parts engineered for durability and safety on every project."
+    },
+    {
+        "id": 5,
+        "img": "/img/home/car-manufacturing.png",
+        "Industries_name": "Auto industry",
+        "Def": "Supplying precision-engineered parts built to meet automotive standards."
+    },
+    {
+        "id": 6,
+        "img": "/img/home/agriculture.png",
+        "Industries_name": "Agriculture",
+        "Def": "Supplying durable components for tough conditions and reliable performance."
+    }
+]
