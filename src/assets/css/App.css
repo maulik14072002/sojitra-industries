@@ -84,13 +84,13 @@ p {
 }
 
 .two-line-ellipsis {
-  display: -webkit-box;         
-  -webkit-box-orient: vertical; 
-  -webkit-line-clamp: 2;        
-  overflow: hidden;             
-  text-overflow: ellipsis;      
-  line-height: 1.2em;           
-  max-height: 3.4em;             
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    max-height: 3.4em;
 }
 
 /* Hero section start */
@@ -158,3 +158,24 @@ p {
 
 
 /* Hero section end */
+
+.industries,
+.service {
+    margin: 100px 0;
+}
+
+@media (max-width: 1200px) {
+
+    .industries,
+    .service {
+        margin: 80px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .industries,
+    .service {
+        margin: 50px 0;
+    }
+}

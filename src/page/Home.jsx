@@ -2,6 +2,7 @@ import React, { memo } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import Layout from '../components/layout/Layout'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
+import Service from '../components/RepeatedComponents/ServiceSection/Service'
 
 export default memo(function Home() {
   return (
@@ -25,8 +26,12 @@ export default memo(function Home() {
 
       <Container fluid="md">
 
-        <section className='my-5'>
+        <section className='industries'>
           <IndustriesSlider />
+        </section>
+
+        <section className='service'>
+          <Service />
         </section>
 
       </Container>
