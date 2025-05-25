@@ -3,6 +3,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import Layout from '../components/layout/Layout'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import Service from '../components/RepeatedComponents/ServiceSection/Service'
+import Relation from '../components/RepeatedComponents/RelationSection/Relation'
 
 export default memo(function Home() {
   return (
@@ -24,18 +25,22 @@ export default memo(function Home() {
         </Container>
       </section>
 
-      <Container fluid="md">
-
-        <section className='industries'>
+      <section className='industries'>
+        <Container fluid="md">
           <IndustriesSlider />
-        </section>
+        </Container>
+      </section>
 
-        <section className='service'>
+      <section className='service'>
+        <Container fluid="md">
           <Service />
-        </section>
+        </Container>
+      </section>
 
-      </Container>
+      <section className='relation'>
+        <Relation />
+      </section>
 
-    </Layout>
+    </Layout >
   )
 })

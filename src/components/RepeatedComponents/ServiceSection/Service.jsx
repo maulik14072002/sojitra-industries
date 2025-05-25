@@ -11,7 +11,7 @@ const Service = () => {
         <Col lg={8} md={12}>
           <h2>Trusted Authority in Machined Precision Parts</h2>
           <p>With a reputation for excellence and innovation, Sojitra Industries specializes in high-precision machined components made from ferrous and non-ferrous metals. Trusted by leaders in the electrical, electronics, automotive, and other industries, we are committed to quality, reliability, and engineering precision. Backed by advanced technology and skilled professionals, we deliver durable components that meet the highest performance standards.</p>
-          <Button className='brochure-btn mt-4 d-flex align-items-center gap-2'>
+          <Button className='brochure-btn cos_btn mt-4 d-flex align-items-center gap-2'>
             <span><IoFileTrayFullOutline /></span>
             Download brochure
           </Button>
