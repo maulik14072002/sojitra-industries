@@ -119,7 +119,7 @@ p {
     box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
 }
 
-.cos_btn:hover{
+.cos_btn:hover {
     margin-left: 10px;
 }
 
@@ -191,7 +191,8 @@ p {
 
 .industries,
 .service,
-.relation {
+.relation,
+.quality {
     margin: 100px 0;
 }
 
@@ -199,7 +200,8 @@ p {
 
     .industries,
     .service,
-    .relation {
+    .relation,
+    .quality {
         margin: 80px 0;
     }
 }
@@ -208,7 +210,8 @@ p {
 
     .industries,
     .service,
-    .relation {
+    .relation,
+    .quality {
         margin: 50px 0;
     }
 }

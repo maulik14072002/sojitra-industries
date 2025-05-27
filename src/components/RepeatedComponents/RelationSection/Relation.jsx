@@ -22,12 +22,12 @@ const Relation = () => {
             </div>
 
             <div className='relation-view'>
-                <Container mfluid="md">
+                <Container fluid="md">
                     <Row>
-                        <Col lg={6} sm={12}>
+                        <Col lg={6} md={12}>
                             <div className='bg-worker'></div>
                         </Col>
-                        <Col lg={6} sm={12}>
+                        <Col lg={6} md={12}>
                             <div className='relation_box'>
                                 <div className='py-4'>
                                     <h2>WE BUILD STRONG RELATIONSHIPS WITH OUR CLIENTS</h2>

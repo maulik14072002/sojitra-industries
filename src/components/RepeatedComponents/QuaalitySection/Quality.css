@@ -1,0 +1,114 @@
+.standerd_img {
+    background-image: url(../../../../public/img/home/standard1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 90%;
+    min-height: 350px;
+    border-radius: 5px;
+}
+
+.quality_main .standerd_navigat {
+    cursor: pointer;
+}
+
+.quality_main .standerd_text_box {
+    background-color: #fff;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    width: 400px;
+    height: auto;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    transition: 0.2s;
+}
+
+.quality_main .standerd_navigat:hover .standerd_text_box {
+    right: 10px;
+}
+
+.quality_main .standerd_text_box_title h5 {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #2d2d2d;
+}
+
+.quality_main .standerd_text_box_title p {
+    color: #9e9e9e;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Rajdhani';
+}
+
+.quality_main .standerd_text_box span {
+    font-family: 'Rajdhani';
+    background-color: #0094ee;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.quality_main .standerd_text_box .standers_def {
+    color: #4C4C4C;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: .5px;
+    margin-top: 20px;
+}
+
+.standerd_intro h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+}
+
+.standerd_intro p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #4C4C4C;
+}
+
+
+
+.standerd_intro ul li::marker {
+    color: #0094ee;
+}
+
+.standerd_intro ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.standerd_intro ul li {
+    font-size: 15px;
+    color: #4C4C4C;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 450px) {
+    .standerd_img{
+        max-width: 97%;
+    }
+
+    .quality_main .standerd_text_box{
+        width: 290px;
+    }
+    .quality_main .standerd_text_box .standers_def {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 20px;
+        max-height: 3.4em;
+        margin-top: 10px;
+    }
+}
