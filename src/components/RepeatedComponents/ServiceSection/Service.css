@@ -12,17 +12,47 @@
     color: #4C4C4C;
 }
 
-.service_list ul{
+.service_list ul {
     margin-left: 20px;
     padding: 0;
 }
 
-.service_list ul li{
+.service_list ul li {
     font-size: 15px;
     color: #4C4C4C;
     margin-bottom: 10px;
 }
 
 .service_list ul li::marker {
-  color: #0094ee;
+    color: #0094ee;
+}
+
+.service_4 span {
+    font-size: 30px;
+    color: #0094ee;
+}
+
+.service_4 h5 {
+    font-size: 20px;
+    color: #2d2d2d;
+    font-weight: 800;
+}
+
+.service_4 p {
+    font-size: 13px;
+    color: #4C4C4C;
+}
+
+.border_cos {
+    border-right: 1px solid #D2D2D2;
+}
+
+.border_cos:last-child {
+    border: none;
+}
+
+@media (max-width: 991px) {
+    .border_cos:nth-child(2) {
+        border: none;
+    }
 }

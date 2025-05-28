@@ -3,6 +3,9 @@ import { Button, Col, Row } from 'react-bootstrap'
 import { IoFileTrayFullOutline } from 'react-icons/io5'
 
 import "./Service.css"
+import { LiaCoinsSolid, LiaTelegramPlane } from 'react-icons/lia'
+import { BiStopwatch } from 'react-icons/bi'
+import { RiTeamLine } from 'react-icons/ri'
 
 const Service = () => {
   return (
@@ -30,6 +33,45 @@ const Service = () => {
               <li>Tamper-Proof Packaging and On-Time Delivery</li>
               <li>Supporting Customer for Reverse Engineering</li>
             </ul>
+          </div>
+        </Col>
+      </Row>
+
+      <Row className='mt-3 mt-md-5'>
+        <Col lg={3} md={6} sm={12} className='border_cos'>
+          <div className='service_4 d-flex align-items-start gap-3'>
+            <span><LiaCoinsSolid /></span>
+            <div>
+              <h5>Good rates</h5>
+              <p>The best market rates</p>
+            </div>
+          </div>
+        </Col>
+        <Col lg={3} md={6} sm={12} className='border_cos mt-4 mt-md-0'>
+          <div className='service_4 d-flex align-items-start gap-3'>
+            <span><BiStopwatch /></span>
+            <div>
+              <h5>Fast mode</h5>
+              <p>Every operation is fast</p>
+            </div>
+          </div>
+        </Col>
+        <Col lg={3} md={6} sm={12} className='border_cos mt-4 mt-lg-0'>
+          <div className='service_4 d-flex align-items-start gap-3'>
+            <span><RiTeamLine /></span>
+            <div>
+              <h5>Team</h5>
+              <p>Dedicated team expert</p>
+            </div>
+          </div>
+        </Col>
+        <Col lg={3} md={6} sm={12} className='border_cos mt-4 mt-lg-0'>
+          <div className='service_4 d-flex align-items-start gap-3'>
+            <span><LiaTelegramPlane /></span>
+            <div>
+              <h5>Flexible</h5>
+              <p>Customize your Product</p>
+            </div>
           </div>
         </Col>
       </Row>
