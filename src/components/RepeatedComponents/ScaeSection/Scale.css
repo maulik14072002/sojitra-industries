@@ -1,0 +1,41 @@
+.scale_main h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+}
+
+.scale_main p,
+.scale_box p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #4C4C4C;
+}
+
+.scale_box {
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 20px 20px 20px;
+    border-bottom: 3px solid #0094ee;
+    /* border-top: 3px solid #0094ee; */
+}
+
+.scale_box span {
+    color: #0094ee;
+    font-size: 40px;
+    display: block;
+}
+
+.scale_box h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+}
+
+@media (max-width: 767px) {
+    .scale_header br{
+        display: none;
+    }
+}

@@ -4,7 +4,8 @@ import Layout from '../components/layout/Layout'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import Service from '../components/RepeatedComponents/ServiceSection/Service'
 import Relation from '../components/RepeatedComponents/RelationSection/Relation'
-import Quality from '../components/RepeatedComponents/QuaalitySection/Quality'
+import Quality from '../components/RepeatedComponents/QualitySection/Quality'
+import Scale from '../components/RepeatedComponents/ScaeSection/Scale'
 
 export default memo(function Home() {
   return (
@@ -45,6 +46,12 @@ export default memo(function Home() {
       <section className='quality'>
         <Container fluid="md">
           <Quality />
+        </Container>
+      </section>
+
+      <section className='scale'>
+        <Container fluid="md">
+          <Scale />
         </Container>
       </section>
 

@@ -5,6 +5,10 @@ import './assets/css/Layout.css'
 import './assets/css/App.css'
 
 import Home from './page/Home';
+import About from './page/About';
+import Product from './page/Product';
+import Quality from './page/Quality';
+import Contact from './page/Contact';
 
 
 function App() {
@@ -13,6 +17,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/quality" element={<Quality />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
