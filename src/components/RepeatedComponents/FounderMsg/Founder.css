@@ -1,0 +1,28 @@
+.founder_msg h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+}
+
+.founder_msg span {
+    font-size: 55px;
+    color: #0094ee;
+}
+
+.founder_msg p {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: #4C4C4C;
+}
+
+.founder_name h5 {
+    font-weight: 900;
+    color: #0094ee;
+}
+
+.founder_name p {
+    font-size: 14px;
+    color: #4C4C4C;
+}

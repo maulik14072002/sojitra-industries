@@ -7,6 +7,7 @@ import Relation from '../components/RepeatedComponents/RelationSection/Relation'
 import Quality from '../components/RepeatedComponents/QualitySection/Quality'
 import Scale from '../components/RepeatedComponents/ScaleSection/Scale'
 import Process from '../components/RepeatedComponents/ProcessSection/Process'
+import Founder from '../components/RepeatedComponents/FounderMsg/Founder'
 
 export default memo(function Home() {
   return (
@@ -58,6 +59,12 @@ export default memo(function Home() {
 
       <section className='process'>
         <Process />
+      </section>
+
+      <section className='founder_msg'>
+        <Container fluid="md">
+          <Founder />
+        </Container>
       </section>
 
     </Layout >
