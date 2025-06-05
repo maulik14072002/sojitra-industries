@@ -148,8 +148,13 @@ p {
 .custom-btn {
     font-family: 'Rajdhani';
     background-color: #0094ee;
-    border: none;
+    border: 1px solid #0094ee !important;
     outline: none;
+}
+
+.custom-btn:hover{
+    background-color: #fff ;
+    color: #0094ee;
 }
 
 .product-slider {
@@ -193,7 +198,8 @@ p {
 .service,
 .relation,
 .quality,
-.scale {
+.scale,
+.process {
     margin: 100px 0;
 }
 
@@ -203,7 +209,8 @@ p {
     .service,
     .relation,
     .quality,
-    .scale {
+    .scale,
+    .process {
         margin: 80px 0;
     }
 }
@@ -214,7 +221,8 @@ p {
     .service,
     .relation,
     .quality,
-    .scale {
+    .scale,
+    .process {
         margin: 50px 0;
     }
 }

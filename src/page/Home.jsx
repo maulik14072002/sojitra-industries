@@ -5,7 +5,8 @@ import IndustriesSlider from '../components/RepeatedComponents/SliderView/Indust
 import Service from '../components/RepeatedComponents/ServiceSection/Service'
 import Relation from '../components/RepeatedComponents/RelationSection/Relation'
 import Quality from '../components/RepeatedComponents/QualitySection/Quality'
-import Scale from '../components/RepeatedComponents/ScaeSection/Scale'
+import Scale from '../components/RepeatedComponents/ScaleSection/Scale'
+import Process from '../components/RepeatedComponents/ProcessSection/Process'
 
 export default memo(function Home() {
   return (
@@ -53,6 +54,10 @@ export default memo(function Home() {
         <Container fluid="md">
           <Scale />
         </Container>
+      </section>
+
+      <section className='process'>
+        <Process />
       </section>
 
     </Layout >
