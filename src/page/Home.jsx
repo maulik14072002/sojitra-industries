@@ -8,6 +8,7 @@ import Quality from '../components/RepeatedComponents/QualitySection/Quality'
 import Scale from '../components/RepeatedComponents/ScaleSection/Scale'
 import Process from '../components/RepeatedComponents/ProcessSection/Process'
 import Founder from '../components/RepeatedComponents/FounderMsg/Founder'
+import Contact from '../components/RepeatedComponents/ContactSection/Contact'
 
 export default memo(function Home() {
   return (
@@ -64,6 +65,12 @@ export default memo(function Home() {
       <section className='founder_msg'>
         <Container fluid="md">
           <Founder />
+        </Container>
+      </section>
+
+      <section className='contact'>
+        <Container fluid="md">
+          <Contact />
         </Container>
       </section>
 

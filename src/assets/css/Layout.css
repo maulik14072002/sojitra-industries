@@ -68,7 +68,7 @@
     border-bottom: 1px solid #CCCCCC;
 }
 
-.mobile-menu ul li:last-child{
+.mobile-menu ul li:last-child {
     border-bottom: none;
 }
 
@@ -83,7 +83,7 @@
     text-transform: uppercase;
 }
 
-.mobile-menu ul a.active{
+.mobile-menu ul a.active {
     color: #0094ee;
     font-weight: 600;
 }
@@ -133,6 +133,23 @@
 
 @media (max-width: 425px) {
     .logo img {
-        width: 230px;
+        width: 190px;
+    }
+}
+
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-top: 1px solid #CCCCCC;
+}
+
+.on_social a {
+    color: #0094ee;
+}
+
+@media (max-width: 425px) {
+    .logo_section img {
+        width: 190px;
     }
 }

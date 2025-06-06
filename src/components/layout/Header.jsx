@@ -1,8 +1,10 @@
 import React, { memo, useState } from 'react'
 import { Button, Container, Modal } from 'react-bootstrap'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { RiMenu3Line } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
+import { ImFacebook } from 'react-icons/im';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 export default memo(function Header() {
 
@@ -26,6 +28,10 @@ export default memo(function Header() {
                 <img src="/img/logo/sojitra-industries-2.png" alt='sojitra-insutries' width="280px" />
               </NavLink>
               <div className='d-flex align-items-center gap-4'>
+                <div className='on_social d-flex align-items-center gap-3'>
+                  <Link href='' target="_blank"><ImFacebook /></Link>
+                  <Link href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></Link>
+                </div>
                 <Button className='get-in-touch custom-btn' onClick={goToContact}>GET IN TOUCH</Button>
                 <Button className='menu-btn' onClick={handleShow}><RiMenu3Line /></Button>
               </div>
