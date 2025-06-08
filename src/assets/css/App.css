@@ -192,7 +192,7 @@ p {
 }
 
 
-/* Hero section end */
+/* section end */
 
 .industries,
 .service,
@@ -201,7 +201,8 @@ p {
 .scale,
 .process,
 .founder_msg,
-.contact {
+.contact,
+.business_section {
     margin: 100px 0;
 }
 
@@ -214,7 +215,8 @@ p {
     .scale,
     .process,
     .founder_msg,
-    .contact {
+    .contact,
+    .business_section {
         margin: 80px 0;
     }
 }
@@ -228,7 +230,84 @@ p {
     .scale,
     .process,
     .founder_msg,
-    .contact {
+    .contact,
+    .business_section {
         margin: 50px 0;
+    }
+}
+
+/* ABOUT section */
+.about_section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../../public/img/about/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about_section h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.about_section p {
+    color: #ebebeb;
+}
+
+
+.business_section h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+}
+
+.business_section p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #4C4C4C;
+}
+
+.business_section .founder_name h5 {
+    color: #0094ee;
+}
+
+.business_section .founder_name p {
+    color: #4C4C4C;
+}
+
+.business_section .company_img {
+    height: 100%;
+    width: 100%;
+    background-image: url(../../../public/img/about/business1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .about_section h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about_section p br {
+        display: none;
+    }
+
+    .about_section p {
+        font-size: 13px;
+    }
+
+    .business_section .company_img {
+        height: 400px;
+        width: 100%;
+        
     }
 }
