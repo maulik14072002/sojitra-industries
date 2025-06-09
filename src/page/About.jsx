@@ -1,6 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import Quality from '../components/RepeatedComponents/QualitySection/Quality'
+import Material from '../components/RepeatedComponents/Material_section/Material'
+import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
+import Founder from '../components/RepeatedComponents/FounderMsg/Founder'
+import Scale from '../components/RepeatedComponents/ScaleSection/Scale'
 
 const About = () => {
   return (
@@ -24,7 +29,7 @@ const About = () => {
           <Row>
             <Col lg="6" md="12">
               <div className='business_info'>
-                <h2>We are the Leader in Industrial Business</h2>
+                <h2>Globally Trusted for Excellence in Metal Precision Components</h2>
                 <p>With decades of industry experience and an unwavering commitment to total quality, Sojitra Industries has earned a strong reputation in the global brass components market. Our precision-engineered products cater to a wide range of sectors, including automotive, electrical, defense, plastic molding, construction, and other industrial applications.</p>
                 <p className='mt-3'>From the beginning, our focus has been on continuous improvement—empowering our skilled workforce through ongoing training and investing in state-of-the-art CNC technology to drive innovation and efficiency. At Sojitra Industries, we strive to be a key player and a pioneer in the manufacturing and global supply of high-precision brass and metal-turned components.</p>
                 <div className='founder_name mt-5'>
@@ -37,6 +42,36 @@ const About = () => {
               <div className='company_img'></div>
             </Col>
           </Row>
+        </Container>
+      </section>
+
+      <section className='industries'>
+        <Container fluid="md">
+          <IndustriesSlider />
+        </Container>
+      </section>
+
+      <section className='quality'>
+        <Container fluid="md">
+          <Quality />
+        </Container>
+      </section>
+
+      <section className='material_we_use'>
+        <Container fluid="md">
+          <Material />
+        </Container>
+      </section>
+
+      <section className='scale'>
+        <Container fluid="md">
+          <Scale />
+        </Container>
+      </section>
+
+      <section className='founder_msg'>
+        <Container fluid="md">
+          <Founder />
         </Container>
       </section>
 

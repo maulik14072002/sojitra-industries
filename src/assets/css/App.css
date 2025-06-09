@@ -202,7 +202,8 @@ p {
 .process,
 .founder_msg,
 .contact,
-.business_section {
+.business_section,
+.material_we_use {
     margin: 100px 0;
 }
 
@@ -216,7 +217,8 @@ p {
     .process,
     .founder_msg,
     .contact,
-    .business_section {
+    .business_section,
+    .material_we_use {
         margin: 80px 0;
     }
 }
@@ -231,7 +233,8 @@ p {
     .process,
     .founder_msg,
     .contact,
-    .business_section {
+    .business_section,
+    .material_we_use {
         margin: 50px 0;
     }
 }
@@ -308,6 +311,6 @@ p {
     .business_section .company_img {
         height: 400px;
         width: 100%;
-        
+
     }
 }
