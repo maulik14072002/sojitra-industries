@@ -45,12 +45,6 @@ const About = () => {
         </Container>
       </section>
 
-      <section className='industries'>
-        <Container fluid="md">
-          <IndustriesSlider />
-        </Container>
-      </section>
-
       <section className='quality'>
         <Container fluid="md">
           <Quality />
@@ -72,6 +66,12 @@ const About = () => {
       <section className='founder_msg'>
         <Container fluid="md">
           <Founder />
+        </Container>
+      </section>
+
+       <section className='industries'>
+        <Container fluid="md">
+          <IndustriesSlider />
         </Container>
       </section>
 

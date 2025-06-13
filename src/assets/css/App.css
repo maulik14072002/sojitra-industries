@@ -128,7 +128,7 @@ p {
     height: 400px;
     display: flex;
     align-items: center;
-    background-image: url(../../../public/img/home/banner.png);
+    background-image: url(../../../public/img/home/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -138,11 +138,11 @@ p {
     font-weight: 900;
     font-size: 50px;
     line-height: 50px;
-    color: #4C4C4C;
+    color: #ffffff;
 }
 
 .hero-section p {
-    color: #4C4C4C;
+    color: #ececec;
 }
 
 .custom-btn {

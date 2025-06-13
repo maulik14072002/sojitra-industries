@@ -9,12 +9,14 @@ import About from './page/About';
 import Product from './page/Product';
 import Quality from './page/Quality';
 import Contact from './page/Contact';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
