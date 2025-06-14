@@ -125,24 +125,62 @@ p {
 
 /* Hero section start */
 .hero-section {
-    height: 400px;
+    padding: 50px 0 0 0;
+}
+
+.hero_img {
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    border: 3px solid #0094ee;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    background-image: url(../../../public/img/home/banner1.jpg);
+}
+
+.hero_img img {
+    width: 100%;
+}
+
+.shadow-cos::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../../public/img/home/hero/shadow.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: 100%;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    z-index: 9;
+    left: -1px;
+}
+
+.shadow-cos::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../../public/img/home/hero/shadow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    z-index: 9;
+    right: -1px;
+    rotate: 180deg;
 }
 
 .hero-section h1 {
     font-weight: 900;
     font-size: 50px;
     line-height: 50px;
-    color: #ffffff;
+    color: #2d2d2d;
 }
 
 .hero-section p {
-    color: #ececec;
+    color: #4C4C4C;
 }
 
 .custom-btn {
@@ -182,8 +220,8 @@ p {
 
 @media (max-width:425px) {
     .hero-section h1 {
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     .hero-section p {
