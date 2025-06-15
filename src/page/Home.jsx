@@ -26,7 +26,7 @@ export default memo(function Home() {
                 <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button>
               </div>
             </Col>
-            <Col lg="6" md="12" className='mt-4 mt-lg-0'>
+            <Col lg="6" md="12" className='mt-5 mt-lg-0'>
               <div className='shadow-cos position-relative'>
                 <Marquee speed={25}>
                   <div className='hero_img'>

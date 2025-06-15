@@ -131,18 +131,20 @@ p {
 .hero_img {
     box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
     border: 3px solid #0094ee;
+    background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
-    width: 120px;
-    height: 120px;
-    margin: 15px;
-    padding: 10px;
+    width: 140px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .hero_img img {
-    width: 100%;
+    width: 90%;
 }
 
 .shadow-cos::after {
@@ -150,7 +152,7 @@ p {
     position: absolute;
     background-image: url(../../../public/img/home/hero/shadow.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     width: 100px;
     height: 100%;
     top: 0;
@@ -163,7 +165,7 @@ p {
     position: absolute;
     background-image: url(../../../public/img/home/hero/shadow.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     width: 100px;
     height: 100%;
     top: 0;
@@ -174,8 +176,8 @@ p {
 
 .hero-section h1 {
     font-weight: 900;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     color: #2d2d2d;
 }
 
@@ -200,10 +202,12 @@ p {
     height: 100%;
 }
 
-@media (max-width: 1200px) {
-    .hero-section h1 {
-        font-size: 40px;
-        line-height: 40px;
+@media (max-width: 991px) {
+    .hero_img {
+        width: 120px;
+        height: 80px;
+        margin: 8px;
+        padding: 20px;
     }
 }
 
@@ -220,8 +224,8 @@ p {
 
 @media (max-width:425px) {
     .hero-section h1 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 35px;
+        line-height: 35px;
     }
 
     .hero-section p {
@@ -241,7 +245,8 @@ p {
 .founder_msg,
 .contact,
 .business_section,
-.material_we_use {
+.material_we_use,
+.support {
     margin: 100px 0;
 }
 
@@ -256,7 +261,8 @@ p {
     .founder_msg,
     .contact,
     .business_section,
-    .material_we_use {
+    .material_we_use,
+    .support {
         margin: 80px 0;
     }
 }
@@ -272,7 +278,8 @@ p {
     .founder_msg,
     .contact,
     .business_section,
-    .material_we_use {
+    .material_we_use,
+    .support {
         margin: 50px 0;
     }
 }
@@ -350,5 +357,87 @@ p {
         height: 400px;
         width: 100%;
 
+    }
+}
+
+/* Contact Section */
+.map-vision {
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+.contact_box {
+    top: 50%;
+    left: 8%;
+    background-color: #fff;
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    transform: translate(0, -50%);
+    padding: 20px;
+    max-width: 600px;
+}
+
+.map-hero .company_contact p {
+    font-size: 13px;
+    color: #4C4C4C;
+}
+
+.map-hero .contact_def h4 {
+    line-height: 25px;
+    font-weight: 700;
+    color: #0094ee;
+}
+
+.map-hero .contact_def ul li::marker {
+    color: #0094ee;
+}
+
+.map-hero .contact_def ul li {
+    color: #4C4C4C;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.mobile-contact {
+    margin-top: 50px;
+    display: none;
+}
+
+.support .support_box{
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    padding: 15px 30px 30px 30px;
+}
+
+.support_box span{
+    font-size: 45px;
+    color: #0094ee;
+}
+
+.support .support_box h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    color: #4C4C4C;
+}
+
+.support .support_box p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #4C4C4C;
+}
+
+@media (max-width: 768px) {
+    .contact_box {
+        display: none;
+    }
+
+    .map-vision {
+        height: 250px;
+    }
+
+    .mobile-contact {
+        display: block;
     }
 }
