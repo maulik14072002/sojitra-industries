@@ -148,8 +148,87 @@
     color: #0094ee;
 }
 
+.footer_def p{
+    font-size: 13px;
+    color: #4C4C4C;
+    margin-top: 20px;
+}
+
+.footer_menu h5{
+    line-height: 25px;
+    font-weight: 700;
+    color: #0094ee;
+    margin-top: 12px;
+}
+
+.footer_menu ul{
+    margin-top: 16px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.footer_menu ul li a{
+    font-family: 'Rajdhani';
+    text-decoration: none;
+    color: #4C4C4C;
+    font-size: 16px;
+    margin-top: 8px;
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+
+.footer_menu ul li a:hover{
+    margin-left: 5px;
+    color: #0094ee;
+    font-weight: 600;
+}
+
+.our_promise{
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.our_promise h5{
+    text-transform: uppercase;
+    color: #2d2d2d;
+    font-weight: 900;
+    color: #4C4C4C;
+}
+
+.our_promise ul{
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.our_promise ul li::marker {
+    color: #0094ee;
+}
+
+.our_promise ul li{
+    font-size: 13px;
+    margin-top: 5px;
+    color: #4C4C4C;
+}
+
 @media (max-width: 425px) {
     .logo_section img {
         width: 190px;
+    }
+    .footer_def p{
+        margin-top: 10px;
+    }
+
+    .footer_def img{
+        width: 200px;
+    }
+
+    .footer_menu ul{
+        margin-top: 10px;
     }
 }
