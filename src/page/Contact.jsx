@@ -33,7 +33,7 @@ const Contact = () => {
                   <h4>CONTACT</h4>
                   <ul className='mt-4 ps-3'>
                     <li>Phae - 2, GIDC, Dared</li>
-                    <li>Jamnagar - 31005, Gujarat</li>
+                    <li>Jamnagar - 361005, Gujarat</li>
                     <li>sales@sojitraindustries.com</li>
                     <li>+91 72039 76604</li>
                   </ul>

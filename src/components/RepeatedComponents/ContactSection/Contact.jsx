@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <div className='contact_def mt-4'>
                 <h5>Email</h5>
-                <p>info@sojitraindustries.com</p>
+                <p>sales@sojitraindustries.com</p>
             </div>
             <div className='contact_def mt-4'>
                 <h5>Contact phone</h5>

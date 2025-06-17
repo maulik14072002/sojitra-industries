@@ -404,25 +404,25 @@ p {
     display: none;
 }
 
-.support .support_box{
+.support .support_box {
     box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
     border-radius: 5px;
     padding: 15px 30px 30px 30px;
 }
 
-.support_box span{
+.support_box span {
     font-size: 45px;
     color: #0094ee;
 }
 
-.support .support_box h4{
+.support .support_box h4 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 25px;
     color: #4C4C4C;
 }
 
-.support .support_box p{
+.support .support_box p {
     font-size: 13px;
     line-height: 20px;
     color: #4C4C4C;
@@ -440,4 +440,26 @@ p {
     .mobile-contact {
         display: block;
     }
+}
+
+/* Quality Section */
+.quality_section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../../public/img/quality/quality1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.quality_section h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.quality_section p {
+    color: #ebebeb;
 }
