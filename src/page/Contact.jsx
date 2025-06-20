@@ -20,7 +20,7 @@ const Contact = () => {
             <Row>
               <Col lg="6" md="6">
                 <div className='company_contact'>
-                  <img src='/img/logo/sojitra-industries-2.png' alt='' width="200px" />
+                  <img src='/img/logo/sojitra-company.png' alt='' width="150px" />
                   <p className='mt-4'>Please feel free to contact us if you have any general questions regarding our components.</p>
                   <div className='on_social d-flex align-items-center gap-3 mt-4'>
                     <Link href='' target="_blank"><ImFacebook /></Link>
@@ -41,34 +41,6 @@ const Contact = () => {
               </Col>
             </Row>
           </div>
-        </div>
-
-        <div className='mobile-contact'>
-          <Container fluid="md">
-            <Row>
-              <Col md="6" sm="6">
-                <div className='company_contact'>
-                  <img src='/img/logo/sojitra-industries-2.png' alt='' width="200px" />
-                  <p className='mt-2'>Please feel free to contact us if you have any general questions regarding our components.</p>
-                  <div className='on_social d-flex align-items-center gap-3 mt-3'>
-                    <Link href='' target="_blank"><ImFacebook /></Link>
-                    <Link href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></Link>
-                  </div>
-                </div>
-              </Col>
-              <Col md="6" sm="6" className='mt-4 mt-sm-0'>
-                <div className='contact_def'>
-                  <h4>CONTACT</h4>
-                  <ul className='mt-3 ps-3 mb-0'>
-                    <li>Phae - 2, GIDC, Dared</li>
-                    <li>Jamnagar - 31005, Gujarat</li>
-                    <li>sales@sojitraindustries.com</li>
-                    <li>+91 72039 76604</li>
-                  </ul>
-                </div>
-              </Col>
-            </Row>
-          </Container>
         </div>
       </section>
 

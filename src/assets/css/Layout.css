@@ -133,7 +133,7 @@
 
 @media (max-width: 425px) {
     .logo img {
-        width: 190px;
+        width: 150px;
     }
 }
 
@@ -225,7 +225,7 @@
     }
 
     .footer_def img{
-        width: 200px;
+        width: 150px;
     }
 
     .footer_menu ul{

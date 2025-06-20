@@ -25,7 +25,7 @@ export default memo(function Header() {
           <Container fluid="md">
             <div className='logo py-2 d-flex align-items-center justify-content-between'>
               <NavLink to={{ pathname: "/" }}>
-                <img src="/img/logo/sojitra-industries-2.png" alt='sojitra-insutries' width="280px" />
+                <img src="/img/logo/sojitra-company.png" alt='sojitra-insutries' width="190px" />
               </NavLink>
               <div className='d-flex align-items-center gap-4'>
                 <div className='on_social d-flex align-items-center gap-3'>
