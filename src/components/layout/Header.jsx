@@ -29,8 +29,8 @@ export default memo(function Header() {
               </NavLink>
               <div className='d-flex align-items-center gap-4'>
                 <div className='on_social d-flex align-items-center gap-3'>
-                  <Link href='' target="_blank"><ImFacebook /></Link>
-                  <Link href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></Link>
+                  <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a>
+                  <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
                 </div>
                 <Button className='get-in-touch custom-btn' onClick={goToContact}>GET IN TOUCH</Button>
                 <Button className='menu-btn' onClick={handleShow}><RiMenu3Line /></Button>

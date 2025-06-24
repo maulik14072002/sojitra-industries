@@ -32,8 +32,8 @@ export default memo(function Footer() {
             <div className='footer_menu'>
               <h5>On Social</h5>
               <div className='on_social d-flex align-items-center gap-3 mt-3 mt-sm-4'>
-                <Link href='' target="_blank"><ImFacebook /></Link>
-                <Link href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></Link>
+                <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a>
+                <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
               </div>
             </div>
           </Col>
