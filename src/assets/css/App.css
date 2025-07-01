@@ -248,7 +248,8 @@ p {
 .material_we_use,
 .support,
 .quality_assurance,
-.quality_tools {
+.quality_tools,
+.products_min {
     margin: 100px 0;
 }
 
@@ -266,7 +267,8 @@ p {
     .material_we_use,
     .support,
     .quality_assurance,
-    .quality_tools {
+    .quality_tools,
+    .products_min {
         margin: 80px 0;
     }
 }
@@ -285,7 +287,8 @@ p {
     .material_we_use,
     .support,
     .quality_assurance,
-    .quality_tools {
+    .quality_tools,
+    .products_min {
         margin: 50px 0;
     }
 }
@@ -506,5 +509,84 @@ p {
         height: 300px;
         width: 100%;
 
+    }
+}
+
+/* PRODUCT */
+.product_section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../../public/img/product/product.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.product_section h1 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.product_section p {
+    color: #ebebeb;
+}
+
+.products_heading h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+}
+
+.product_card {
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product_img{
+    width: 100%;
+    height: 200px;
+}
+
+.product_img img{
+    object-fit: cover;
+}
+
+.product_card h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #2d2d2d;
+}
+
+.know_more{
+    background-color: transparent !important;
+    padding: 0;
+    margin: 0;
+    color: #0094ee !important;
+    border: none;
+    font-family: 'Rajdhani';
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .product_section h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width:425px) {
+    .product_section h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .product_section p {
+        font-size: 14px;
     }
 }

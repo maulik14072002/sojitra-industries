@@ -216,6 +216,12 @@
     color: #4C4C4C;
 }
 
+.footer_contact_text{
+    font-size: 13px;
+    line-height: 20px;
+    color: #4C4C4C;
+}
+
 @media (max-width: 425px) {
     .logo_section img {
         width: 190px;

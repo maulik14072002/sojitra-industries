@@ -23,8 +23,8 @@ const Contact = () => {
                   <img src='/img/logo/sojitra-company.png' alt='' width="150px" />
                   <p className='mt-4'>Please feel free to contact us if you have any general questions regarding our components.</p>
                   <div className='on_social d-flex align-items-center gap-3 mt-4'>
-                    <Link href='' target="_blank"><ImFacebook /></Link>
-                    <Link href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></Link>
+                    {/* <Link href='' target="_blank"><ImFacebook /></Link> */}
+                    <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
                   </div>
                 </div>
               </Col>

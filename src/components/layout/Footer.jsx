@@ -8,15 +8,15 @@ export default memo(function Footer() {
   return (
     <div className='footer'>
       <Container fluid="md">
-        <Row>
-          <Col lg="4" md="6" sm="12">
+        <Row className='justify-content-center'>
+          <Col xl="3" lg="3" md="6" sm="12">
             <div className='footer_def'>
               <img src='/img/logo/sojitra-company.png' alt='sojitra industires' width="200px" />
               <p>Sojitra Industries delivers precision-engineered components worldwide, uniting advanced manufacturing with uncompromising quality.</p>
               <Button className='get-in-touch custom-btn mt-4' >Contact Us</Button>
             </div>
           </Col>
-          <Col lg="3" md="6" sm="12" className='mt-3 mt-md-0'>
+          <Col xl="2" lg="3" md="6" sm="12" className='mt-4 mt-md-0'>
             <div className='footer_menu'>
               <h5>Useful resources</h5>
               <ul>
@@ -28,16 +28,23 @@ export default memo(function Footer() {
               </ul>
             </div>
           </Col>
-          <Col lg="2" md="6" sm="12" className='mt-3 mt-lg-0'>
+          <Col xl="2" lg="3" md="6" sm="12" className='mt-4 mt-lg-0'>
+            <div className='footer_menu'>
+              <h5>Contact Us</h5>
+              <p className='mt-3 mt-sm-4 footer_contact_text'>+91 7203976604</p>
+              <p className='footer_contact_text mt-2'>sales@sojitraindustry.com</p>
+            </div>
+          </Col>
+          <Col xl="2" lg="2" md="6" sm="12" className='mt-4 mt-lg-0'>
             <div className='footer_menu'>
               <h5>On Social</h5>
               <div className='on_social d-flex align-items-center gap-3 mt-3 mt-sm-4'>
-                <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a>
+                {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
                 <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
               </div>
             </div>
           </Col>
-          <Col lg="3" md="6" sm="12" className='mt-3 mt-lg-0'>
+          <Col xl="3" lg="4" md="6" sm="12" className='mt-4 mt-xl-0'>
             <div className='our_promise'>
               <h5>Our Promise To You</h5>
               <ul>

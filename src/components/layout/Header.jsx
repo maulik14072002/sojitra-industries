@@ -29,7 +29,7 @@ export default memo(function Header() {
               </NavLink>
               <div className='d-flex align-items-center gap-4'>
                 <div className='on_social d-flex align-items-center gap-3'>
-                  <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a>
+                  {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
                   <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
                 </div>
                 <Button className='get-in-touch custom-btn' onClick={goToContact}>GET IN TOUCH</Button>
@@ -43,7 +43,7 @@ export default memo(function Header() {
             <ul>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/" }}>Home</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/about" }}>About</NavLink></li>
-              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/product" }}>Product</NavLink></li>
+              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/product" }}>Products</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/quality" }}>Quality</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/contact" }}>Contact</NavLink></li>
             </ul>
@@ -59,7 +59,7 @@ export default memo(function Header() {
             <ul>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/" }}>Home</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/about" }}>About</NavLink></li>
-              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/product" }}>Product</NavLink></li>
+              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/product" }}>Products</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/quality" }}>Quality</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : 'pb-0'} to={{ pathname: "/contact" }}>Contact</NavLink></li>
             </ul>
