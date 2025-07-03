@@ -5,7 +5,7 @@ import Quality from '../components/RepeatedComponents/QualitySection/Quality'
 import Material from '../components/RepeatedComponents/Material_section/Material'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import Founder from '../components/RepeatedComponents/FounderMsg/Founder'
-import Scale from '../components/RepeatedComponents/ScaleSection/Scale'
+import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
 
 const About = () => {
   return (
@@ -51,15 +51,15 @@ const About = () => {
         </Container>
       </section>
 
-      <section className='material_we_use'>
+      <section className='qualyti_control'>
         <Container fluid="md">
-          <Material />
+          <QualityControl />
         </Container>
       </section>
 
-      <section className='scale'>
+      <section className='material_we_use'>
         <Container fluid="md">
-          <Scale />
+          <Material />
         </Container>
       </section>
 

@@ -3,6 +3,7 @@ import Layout from '../components/layout/Layout'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import QualitySection from '../components/RepeatedComponents/QualitySection/Quality'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
+import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
 
 const Quality = () => {
     return (
@@ -85,6 +86,12 @@ const Quality = () => {
             <section className='quality'>
                 <Container fluid="md">
                     <QualitySection />
+                </Container>
+            </section>
+
+            <section className='qualyti_control'>
+                <Container fluid="md">
+                    <QualityControl />
                 </Container>
             </section>
 

@@ -1,0 +1,62 @@
+.quality_control_left_box {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.quality_control_left_box img {
+    width: 100%;
+}
+
+.quality_control_img1,
+.quality_control_img2,
+.quality_control_img3,
+.quality_control_img4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quality_control_img1 {
+    background-image: url(../../../../public/img/product/pro1.jpg);
+}
+
+.quality_control_img2 {
+    background-image: url(../../../../public/img/product/pro2.jpg);
+}
+
+.quality_control_img3 {
+    background-image: url(../../../../public/img/product/pro3.jpeg);
+}
+
+.quality_control_img4 {
+    background-image: url(../../../../public/img/product/pro4.jpg);
+}
+
+.quality_control_title h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+}
+
+.quality_control_title p,
+.quality_control_right_box p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #4C4C4C;
+}
+
+.quality_control_right_box h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #0094ee;
+}
+
+@media (max-width: 768px) {
+    .quality_control_left_box{
+        height: 250px;
+    }
+}
