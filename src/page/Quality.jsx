@@ -4,6 +4,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import QualitySection from '../components/RepeatedComponents/QualitySection/Quality'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
+import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
 
 const Quality = () => {
     return (
@@ -98,6 +99,12 @@ const Quality = () => {
             <section className='industries'>
                 <Container fluid="md">
                     <IndustriesSlider />
+                </Container>
+            </section>
+
+            <section className='customer_support'>
+                <Container fluid="md">
+                    <CustomerSupport />
                 </Container>
             </section>
 

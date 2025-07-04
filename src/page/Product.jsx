@@ -3,6 +3,7 @@ import Layout from '../components/layout/Layout'
 import { Col, Container, Row } from 'react-bootstrap'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
+import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
 
 const Product = () => {
     return (
@@ -111,6 +112,13 @@ const Product = () => {
                     <IndustriesSlider />
                 </Container>
             </section>
+
+            <section className='customer_support'>
+                <Container fluid="md">
+                    <CustomerSupport />
+                </Container>
+            </section>
+
         </Layout>
     )
 }

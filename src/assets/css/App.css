@@ -250,7 +250,8 @@ p {
 .quality_assurance,
 .quality_tools,
 .products_min,
-.qualyti_control {
+.qualyti_control,
+.customer_support {
     margin: 100px 0;
 }
 
@@ -270,7 +271,8 @@ p {
     .quality_assurance,
     .quality_tools,
     .products_min,
-    .qualyti_control {
+    .qualyti_control,
+    .customer_support {
         margin: 80px 0;
     }
 }
@@ -291,7 +293,8 @@ p {
     .quality_assurance,
     .quality_tools,
     .products_min,
-    .qualyti_control {
+    .qualyti_control,
+    .customer_support {
         margin: 50px 0;
     }
 }

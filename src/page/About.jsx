@@ -6,6 +6,7 @@ import Material from '../components/RepeatedComponents/Material_section/Material
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import Founder from '../components/RepeatedComponents/FounderMsg/Founder'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
+import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
 
 const About = () => {
   return (
@@ -72,6 +73,12 @@ const About = () => {
        <section className='industries'>
         <Container fluid="md">
           <IndustriesSlider />
+        </Container>
+      </section>
+
+      <section className='customer_support'>
+        <Container fluid="md">
+          <CustomerSupport />
         </Container>
       </section>
 

@@ -11,6 +11,7 @@ import Scale from '../components/RepeatedComponents/ScaleSection/Scale'
 import Process from '../components/RepeatedComponents/ProcessSection/Process'
 import Contact from '../components/RepeatedComponents/ContactSection/Contact'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl';
+import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport';
 
 export default memo(function Home() {
   return (
@@ -137,6 +138,12 @@ export default memo(function Home() {
       <section className='contact'>
         <Container fluid="md">
           <Contact />
+        </Container>
+      </section>
+
+      <section className='customer_support'>
+        <Container fluid="md">
+          <CustomerSupport />
         </Container>
       </section>
 
