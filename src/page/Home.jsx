@@ -12,8 +12,16 @@ import Process from '../components/RepeatedComponents/ProcessSection/Process'
 import Contact from '../components/RepeatedComponents/ContactSection/Contact'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl';
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 export default memo(function Home() {
+
+  const navigate = useNavigate();
+  const goToContact = () => {
+    navigate('/contact');
+  };
+  
+
   return (
     <Layout>
 
@@ -24,7 +32,7 @@ export default memo(function Home() {
               <div className='text-start'>
                 <h1>Leading Manufacturer of Precision Machined Components</h1>
                 <p className='mt-2'>Our goal is maximum contribution to our customer’s growth  and to provide service to   their expectations.</p>
-                <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button>
+                <Button className='contact-us-btn custom-btn mt-3' onClick={goToContact}>Contact us</Button>
               </div>
             </Col>
             <Col lg="6" md="12" className='mt-5 mt-lg-0'>

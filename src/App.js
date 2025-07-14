@@ -10,6 +10,7 @@ import Product from './page/Product';
 import Quality from './page/Quality';
 import Contact from './page/Contact';
 import ScrollToTop from './ScrollToTop';
+import Page404 from './page/Page404';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/quality" element={<Quality />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/404" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
     </>

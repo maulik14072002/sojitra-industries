@@ -18,7 +18,7 @@ const About = () => {
               <div className='text-center'>
                 <h1>About</h1>
                 <p>Providing from Brass, S.S, Mild Steel, Copper & any special material as per customer requirements <br />Our target is to provide zero defects products  to client which is remarkable in industry.</p>
-                <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button>
+                {/* <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button> */}
               </div>
             </Col>
           </Row>

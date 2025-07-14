@@ -13,7 +13,6 @@ export default memo(function Footer() {
             <div className='footer_def'>
               <img src='/img/logo/sojitra-company.png' alt='sojitra industires' width="200px" />
               <p>Sojitra Industries delivers precision-engineered components worldwide, uniting advanced manufacturing with uncompromising quality.</p>
-              <Button className='get-in-touch custom-btn mt-4' >Contact Us</Button>
             </div>
           </Col>
           <Col xl="2" lg="3" md="6" sm="12" className='mt-4 mt-md-0'>

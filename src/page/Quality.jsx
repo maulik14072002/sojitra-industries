@@ -16,7 +16,7 @@ const Quality = () => {
                             <div className='text-center'>
                                 <h1>Quality</h1>
                                 <p>Quality is at the core of everything we do at Sojitra Industries. From raw material selection to final inspection, every step is guided by strict quality control to ensure unmatched reliability and performance.</p>
-                                <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button>
+                                {/* <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button> */}
                             </div>
                         </Col>
                     </Row>

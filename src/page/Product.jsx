@@ -4,8 +4,16 @@ import { Col, Container, Row } from 'react-bootstrap'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
+import { useNavigate } from 'react-router-dom'
 
 const Product = () => {
+
+
+    const navigate = useNavigate();
+    const goToNotFound = () => {
+        navigate('/404');
+    };
+
     return (
         <Layout>
 
@@ -29,7 +37,7 @@ const Product = () => {
                     </div>
                     <Row>
                         <Col lg="4" md="6" sm="12" className='mt-4'>
-                            <div className='product_card'>
+                            <div className='product_card' onClick={goToNotFound}>
                                 <div className='product_img'><img alt='' src='/img/product/p1.webp' width="100%" height="100%" /></div>
                                 <div className='px-3 py-2'>
                                     <h5>Brass Automotive Components</h5>
