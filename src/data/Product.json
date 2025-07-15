@@ -1,0 +1,541 @@
+[
+    {
+        "id": "1",
+        "img":"/img/product/p1.webp",
+        "name": "Brass Automotive Components",
+        "description": {
+            "def": "We are specialized in manufacturing and customizing any kind of automobile parts as per customer requirements and CAD drawings. We are using excellent quality raw materials and advanced technology to ensure the high durability and anti-corrosive property of automobile parts. All our automobile parts are compliance with the international standards and industry norms. Our offered range of automobile parts are widely appreciated by customer in domestic as well as international market for its accurate dimension, precious design, high performance and flawless finish. Automobile Parts are widely used in all kind of vehicles and automobiles as replacement and repairing parts. Our automobile parts are preciously tested and inspected before its final delivery to ensure defect free and high-performance product. We are capable to manufacture standard as well as custom automobile parts in-terms of dimension, size, material, shape as per customer specification & requirements."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "IS 319 Brass Free Cutting.",
+                    "As per BS-249 Free Cutting Brass Material.",
+                    "CW 617N, CW 614N, CuZn39Pb3, CuZn39Pb2.",
+                    "Any Special Brass Material Composition on Request."
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO metric, mm, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF",
+                    "Any threads as per customer's design"
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "Any size available as per customer specification and drawings/samples"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Electro Tinned, Nickel, Chrome, Led, Silver, Gold, Zinc Blue etc"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "2",
+        "img":"/img/product/p2.jpg",
+        "name": "CNC Turned Components",
+        "description": {
+            "def": "We are leading manufacturer of CNC Turned Components providing customized products to achieve the desired specialization in the production of parts. These components are widely used in Engineering, Aerospace, Medical, Agricultural and Machine Tool Industries. We are well known in the market for our various excellent products. We manufacture these components as per client's customized requirements. We manufacture these parts using high-grade raw materials like steel, stainless steel, brass, copper, aluminium and many more as per the industrial standards and customer specifications."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "Free Cutting Brass IS 319 Type (I) or BS 249 Type (I)",
+                    "High Grade Free Cutting Brass",
+                    "Brass – BS 2872 CZ 112",
+                    "Copper – BS 2872 C 101, 102",
+                    "CZ-360 High Grade Brass",
+                    "Brass CDA-360",
+                    "Brass IS-319 Grade III",
+                    "CuZn39Pb3, CW614N, CZ121, and C37710",
+                    "Any Special Brass Material Composition as per customers requirement"
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "UNEF Threads , ISO metric, MM, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF, BSPT",
+                    "Any special threads as per customer specifications."
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "As Per Customer Specification"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickel Plated, Tin Plated, Natural Brass, Electro-Tin, Chrome or any coating as per customer requirements."
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "3",
+        "img":"/img/product/p3.webp",
+        "name": "Brass Compression Parts",
+        "description": {
+            "def": "We are manufacturer, supplier and exporter of complete range of Brass Compression Parts / Fittings such as Compression Connectors, Union Joint, Elbow Fittings, Olive Union, Compression Tees, Reducing Elbow, Bulkhead Union, Olive Elbow Assembly, Branch Tee, Olive Nut, Compression Nuts, Compression Adaptor, Sleeve, Compression Olives, Brass Pneumatic Fitings, P U Connectors, Four Way, Compression Elbows, Union Elbows, Union Fittings, Olive Fittings and any kind of Brass Component can be developed as per customer’s specifications."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "Brass CDA-360",
+                    "Brass IS-319 Grade III",
+                    "Brass Free Cutting High Grade",
+                    "any special brass material composition as per customer specifications."
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "UNEF Threads , ISO metric, MM, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF, BSPT",
+                    "Any special threads as per customer specifications."
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "Any size available as per customer specification and drawings"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Brass Natural, Electro Tinned, Nickel, Chrome, Led, Silver, Gold, Zinc Blue",
+                    "Any special finish / plating as per customer specifications"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "4",
+        "img":"/img/product/p4.jpg",
+        "name": "Brass Earthing Accessories",
+        "description": {
+            "def": "Earthing System is very essential to be properly designed & installed to safeguard both lives & the equipment. Sometimes it happens that though the earthing system is installed, current leakage is felt & short circuit may happen. To avoid this a correct Earthing System embracing correct earthing accessories is very important to take care of. Corrosion resistance, conductivity and mechanical strength are essential considerations in earthing accessory design to ensure an earthing system remains operative for many years. Earthing Accessories have high quality copper alloy material which provide wanted strength to the part to ensure its proper mechanism."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "Brass - Gunmetal - Bronze - Copper - SS - are main metals used in manufacturing the equipments in the form of clamps, nut bolts etc.",
+                    "Any Special Brass Material Composition on Request."
+                ]
+            },
+            {
+                "name": "Types",
+                "info": [
+                    "Rain Water Pipe Bond",
+                    "Jointing Clamp",
+                    "B-Bond",
+                    "Tee-Clamp",
+                    "U Bolt Rod to Cable Clamp",
+                    "Tower Bond Clamp",
+                    "U Bolt Rod Clamp",
+                    "Rod to Cable Lug Clamp."
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO Metric, PG, BA, BSW, UNC, UNF, BSP, BSPT, NPT, DIN Standard, JIS, GB Standard or any International Standard Type as per requirements."
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "Any size available as per Customer Specification and Drawing Samples."
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Electro Tinned, Nickel, Chrome, Led, Silver, Gold, Zinc Blue etc"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "5",
+        "img":"/img/product/p5.jpg",
+        "name": "Brass Electrical Components",
+        "description": {
+            "def": "We are manufacturing all Kinds of Brass Electrical Components, Brass Electrical Parts and Brass Electrical Fittings like Electrical Plug Pins, Sockets Pins, Brass Electrical Components, Brass Terminal Block, Brass Connectors, Brass Contacts and more. Brass Electrical Components are consumed in various applications like Toggle Switches, Modular Switches, Switchgears, Fuse Switches, Plug Pins & Sockets and many Electrical & Electronics Equipment or Parts. Brass Electrical Components for various industries including Power Generation, Electronic Industry, Solar Energy, Automotive Industry, Medical Industry, Electrical and Engineering Assembly."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "Free Cutting Brass IS 319 Type (I) or",
+                    "Free Cutting Brass as per BS 249 Type (I) or",
+                    "High Grade Free Cutting Brass",
+                    "Brass – BS 2872 CZ 112|",
+                    "Copper – BS 2872 C 101, 102",
+                    "Brass CDA-360",
+                    "Any Special Brass Material Composition on Request."
+                ]
+            },
+            {
+                "name": "Types",
+                "info": [
+                    "Electrical Insulating Components | Auto Electrical Parts And Equipments | Electrical Terminals | Electrical Sockets | Neutral Links | Panel Board Accessories | Electrical Pins | Switch Gear Accessories | Terminal Blocks"
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO Metric, PG, BA, BSW, UNC, UNF, BSP, BSPT, NPT, DIN Standard, JIS, GB Standard or any International Standard Type as per requirements."
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "Any size available as per Customer Specification and Drawing Samples."
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Electro Tinned, Nickel, Chrome, Led, Silver, Gold, Zinc Blue etc"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "6",
+        "img":"/img/product/p6.jpg",
+        "name": "Brass Fittings",
+        "description": {
+            "def": "Brass is widely used in manufacturing brass fittings, plumbing fittings, flare fittings, garden hose fittings, compression fittings, transmission fittings, pipe fittings & threaded fastening, due to its excellent qualities as rust-resistance, hardness, wear-resistance, high tensile strength, durability and flexibility."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "Free Cutting Brass IS 319 Type (I) or",
+                    "Free Cutting Brass as per BS 249 Type (I) or",
+                    "High Grade Free Cutting Brass",
+                    "Any Special Brass Material Composition on Request."
+                ]
+            },
+            {
+                "name": "Types",
+                "info": [
+                    "Brass Compression Fittings",
+                    "Brass Pipe Fittings",
+                    "Brass Hose Fittings",
+                    "Brass Flare Fittings",
+                    "Brass Tube Fittings",
+                    "Brass Valves & Cocks Fittings",
+                    "Brass Plumbing Fittings",
+                    "Brass Auto LPG Gas Fittings",
+                    "Brass Double Ferrule Fittings",
+                    "Brass Hydraulic Fittings",
+                    "Brass Pneumatic Fittings",
+                    "Brass Inverted Flare Fittings"
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO metric, MM, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF",
+                    "Any threads as per customer's design"
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "As Per Customer Specification"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickel Plated, Tin Plated or any coating as per requirement"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "7",
+        "img":"/img/product/p7.webp",
+        "name": "Brass Forged Parts",
+        "description": {
+            "def": "We are specialized in Manufacturing of Brass Forging Parts. We can Manufacture any type of Brass Forging Components, Brass Forging Parts, Brass Forging Fittings, Brass Forged and Machined Parts, Brass and Gunmetal Die Casting Components for various industries including Water Valve and Pipe Fittings, Plumbing and Sanitary Fittings, Agricultural Equipment, Automotive Parts, LPG and CNG Valve Fittings, Electrical and Engineering Assembly. We have a Unique Manufacturing Facility to develop Brass Forging Parts as per customer’s designs and requirements."
+        },
+        "info": [
+            {
+                "name": "Material",
+                "info": [
+                    "Forging Brass As Per BS 218",
+                    "Any special brass material composition as per requirements"
+                ]
+            },
+            {
+                "name": "Features ",
+                "info": [
+                    "Made from high quality & tested raw materials to give excellent performance",
+                    "High strength for safety & long-run applications",
+                    "Custom marking as per require during forging process",
+                    "Better solution for large components",
+                    "Customized as per client’s needs."
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO Metric (MM Threads)",
+                    "BA Threads",
+                    "DIN Threads",
+                    "BSW Threads (inches)",
+                    "UNC & UNF Threads",
+                    "GB Threads",
+                    "Any threads as per custom Specified."
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickel Plated or any special coatings as per requirement"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "8",
+        "img":"/img/product/p8.jpg",
+        "name": "Brass Inserts",
+        "description": {
+            "def": "The wide range of Brass Inserts include threaded molding inserts, ultrasonic molding inserts, knurled molding inserts, molding inserts for plastic, wood molding inserts and more. The range of standard and high quality molding inserts designed to molded into the plastic, wood or any molded components. The brass used in the manufacturing of these brass inserts is of optimum quality that ensures high durability, tensile strength and resistance to corrosion. High temperature bearing capacity has also made these brass inserts ideal for various industrial applications."
+        },
+        "info": [
+            {
+                "name": "Special Features of Brass Inserts",
+                "info": [
+                    "Threads as per International Go & Not Go Standards.",
+                    "Deep Groove for maximum Pull Out Resistance.",
+                    "Knurling Available: » Diamond » Straight » Unidirectional » Both blind and through brass inserts are available with no minimum Qty."
+                ]
+            },
+            {
+                "name": "Also Available",
+                "info": [
+                    "Brass Round Knurled Inserts",
+                    "Brass Hexagonal Inserts",
+                    "Brass Square Inserts"
+                ]
+            },
+            {
+                "name": "Material",
+                "info": [
+                    "Free Cutting Brass IS 319 Type (I) or BS 249 Type (I) or High Grade",
+                    "Any special brass material composition as per requirement"
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO Metric (MM Threads)",
+                    "BA, BSW (Inches), UNC, UNF or",
+                    "Any as per custom design"
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "Begins from M2 or equivalent threads and up to any size as per custom design or requirement"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickle Plated, Tin Plated or any coating as per specification"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "9",
+        "img":"/img/product/p9.webp",
+        "name": "Brass LPG & Gas Parts",
+        "description": {
+            "def": "We provide Brass LPG & Gas Parts which are made from premium quality raw materials and with advanced technology. The range of Brass LPG & Gas Parts have been designed by experts with the application of domain knowledge and standard industrial specifications. These LPG & Gas parts are available for various fitting needs in different sizes, shapes, designs and thickness. These parts are available with international quality standards and features for widely used in variety of applications. We also manufacture and export various types of ass LPG & Gas Parts exactly similar to clients drawing or sample."
+        },
+        "info": [
+            {
+                "name": "Product Range",
+                "info": [
+                    "Brass Gas Adapter",
+                    "Brass Gas Nipple",
+                    "Brass Gas Connector",
+                    "Brass Gas Cock",
+                    "LPG Fittings & Adapters"
+                ]
+            },
+            {
+                "name": "Material",
+                "info": [
+                    "Free Cutting Brass IS 319 Type (I) or",
+                    "Free Cutting Brass as per BS 249 Type (I) or",
+                    "High Grade Free Cutting Brass",
+                    "Any Special Brass Material Composition as per customers requirement"
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO Metric MM, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF",
+                    "Almost any threads as per custom specification"
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "As Per Customer Specification"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickel Plated, Tin Plated, Natural Brass, Electro-Tin, Chrome",
+                    "Any coating as per customer requirements."
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "10",
+        "img":"/img/product/p10.jpg",
+        "name": "Brass Turned Components",
+        "description": {
+            "def": "We are engaged in offering a wide range of Brass Turned Components to our clients at a reasonable cost. Our turned components are made using quality raw material such as high and fine grade brass to assure quality and reliability. We manufacture all types of Brass turned components depending upon client’s requirement for application in any industry. The range of Brass Turned Components find wide application in machine building, automobile, hydraulics and general engineering industry. Our turned components are tested on numerous parameters to assure it on counts of quality."
+        },
+        "info": [
+            {
+                "name": "Application",
+                "info": [
+                    "Auto Industry",
+                    "Industrial Assembly",
+                    "Electrical",
+                    "Electronics",
+                    "Gas & Oil",
+                    "Valve Assembly",
+                    "Power Transmission",
+                    "Water Pump",
+                    "Textiles",
+                    "Energy",
+                    "Medical",
+                    "Appliances",
+                    "Telecom",
+                    "Hydraulics",
+                    "Construction",
+                    "Machineries",
+                    "Solar Energy"
+                ]
+            },
+            {
+                "name": "Material",
+                "info": [
+                    "IS 319 Brass Free Cutting.",
+                    "As per BS-249 Free Cutting Brass Material.",
+                    "High Grade Free Cutting.",
+                    "Any Special Brass Material Composition on Request."
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO metric, MM, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF",
+                    "Any threads as per customer's design"
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "As Per Customer Specification"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickel Plated, Tin Plated or any coating as per specification"
+                ]
+            }
+        ]
+    },
+
+    {
+        "id": "11",
+        "img":"/img/product/p11.jpg",
+        "name": "Fasteners & Fixtures",
+        "description": {
+            "def": "We provide High-Quality Brass Fasteners with variety of types. Generally, Fasteners are hardware components that mechanically joins two or more elements together. Brass Fasteners are easily removable without any damages the joining components. They are made from brass, mild steel, stainless steel and other material composition. Brass Fasteners are defined various types such as Screw, Washer, Anchor, Nuts, Rivets, Inserts, Bolts and many more."
+        },
+        "info": [
+            {
+                "name": "Type of Nuts",
+                "info": [
+                    "Hex Nut | Round Nut | Hexagonal | Nylon Insert Lock | Nylon Insert Jam Lock | Wing | Cap | Acorn | Flange | Tee | Square | Coupling | Slotted | Castle | Insert Nut"
+                ]
+            },
+            {
+                "name": "Type of Bolts",
+                "info": [
+                    "Hex Bolts | Carriage Bolts | Lag Bolts | Flange Bolts | Eye Bolts | U-Bolts | J-Bolts | Shoulder Bolts | Elevator Bolts | Brass Rivet | Brass Nipple | Hanger Bolts | Hexagonal Bolt | Round Bolt"
+                ]
+            },
+            {
+                "name": "Type of Screws ",
+                "info": [
+                    "Wood Screw | Knurled Screws | Slotted Grub Screw | Round Head Screw | Cheese Head Screw | Pan Head Screws | CSK Screw | Grub Screw | Raised Head Screw | Phillips Head Screw | Combination Head Screw | Cross Head Screw | Special Head Screws | Socket Head Screws"
+                ]
+            },
+            {
+                "name": "Material",
+                "info": [
+                    "Brass, Steel, Stainless Steel, Martensitic Stainless Steel, Austenitic Stainless Steel, Carbon Steel, Copper, Galvanized Steel"
+                ]
+            },
+            {
+                "name": "Threads",
+                "info": [
+                    "ISO metric, MM, PG, BSW, BSP, BSB, BSF, BA, NPT, NPTF, UNC, UNF, UNEF",
+                    "Any threads as per customer's design"
+                ]
+            },
+            {
+                "name": "Size",
+                "info": [
+                    "As Per Customer Specification"
+                ]
+            },
+            {
+                "name": "Finish And Coating",
+                "info": [
+                    "Natural, Nickel Plated, Tin Plated or any coating as per specification"
+                ]
+            }
+        ]
+    }
+]
