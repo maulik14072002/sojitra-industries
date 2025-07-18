@@ -1,9 +1,8 @@
 import React, { memo, useState } from 'react'
 import { Button, Container, Modal } from 'react-bootstrap'
-import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { RiMenu3Line } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-import { ImFacebook } from 'react-icons/im';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 export default memo(function Header() {
@@ -30,7 +29,7 @@ export default memo(function Header() {
               <div className='d-flex align-items-center gap-4'>
                 <div className='on_social d-flex align-items-center gap-3'>
                   {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
-                  <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
+                  <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
                 </div>
                 <Button className='get-in-touch custom-btn' onClick={goToContact}>GET IN TOUCH</Button>
                 <Button className='menu-btn' onClick={handleShow}><RiMenu3Line /></Button>
@@ -44,7 +43,7 @@ export default memo(function Header() {
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/" }}>Home</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/about" }}>About</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/product" }}>Products</NavLink></li>
-              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/quality" }}>Quality</NavLink></li>
+              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/sustainability" }}>Sustainability</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/contact" }}>Contact</NavLink></li>
             </ul>
           </Container>
@@ -60,7 +59,7 @@ export default memo(function Header() {
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/" }}>Home</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/about" }}>About</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/product" }}>Products</NavLink></li>
-              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/quality" }}>Quality</NavLink></li>
+              <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to={{ pathname: "/sustainability" }}>Sustainability</NavLink></li>
               <li><NavLink className={({ isActive }) => isActive ? 'active' : 'pb-0'} to={{ pathname: "/contact" }}>Contact</NavLink></li>
             </ul>
           </div>

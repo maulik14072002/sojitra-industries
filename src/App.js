@@ -6,11 +6,11 @@ import './assets/css/App.css'
 
 import Home from './page/Home';
 import About from './page/About';
-import Product from './page/Product';
-import Quality from './page/Quality';
 import Contact from './page/Contact';
 import ScrollToTop from './ScrollToTop';
 import ProductDef from './page/ProductDef';
+import Product from './page/Product';
+import Sustainability from './page/Sustainability';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
           <Route path="/product/description" element={<ProductDef />} />
-          <Route path="/quality" element={<Quality />} />
+          <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>

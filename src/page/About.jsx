@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import Quality from '../components/RepeatedComponents/QualitySection/Quality'
 import Material from '../components/RepeatedComponents/Material_section/Material'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
@@ -15,7 +15,7 @@ const About = () => {
         <Container fluid="md">
           <Row>
             <Col lg="12" md="12">
-              <div className='text-center'>
+              <div className=''>
                 <h1>About</h1>
                 <p>Providing from Brass, S.S, Mild Steel, Copper & any special material as per customer requirements <br />Our target is to provide zero defects products  to client which is remarkable in industry.</p>
                 {/* <Button className='contact-us-btn custom-btn mt-3'>Contact us</Button> */}

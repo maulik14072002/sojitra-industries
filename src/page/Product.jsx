@@ -73,7 +73,6 @@ const Product = () => {
                     <CustomerSupport />
                 </Container>
             </section>
-
         </Layout>
     )
 }

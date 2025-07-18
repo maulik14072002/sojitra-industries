@@ -1,7 +1,6 @@
 import React, { memo } from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { FaLinkedinIn } from 'react-icons/fa'
-import { ImFacebook } from 'react-icons/im'
 import { Link } from 'react-router-dom'
 
 export default memo(function Footer() {
@@ -22,7 +21,7 @@ export default memo(function Footer() {
                 <li><Link to={{ pathname: "/" }}>Home</Link></li>
                 <li><Link to={{ pathname: "/about" }}>About</Link></li>
                 <li><Link to={{ pathname: "/product" }}>Product</Link></li>
-                <li><Link to={{ pathname: "/quality" }}>Quality</Link></li>
+                <li><Link to={{ pathname: "/sustainability" }}>Sustainability</Link></li>
                 <li><Link to={{ pathname: "/contact" }}>Contact</Link></li>
               </ul>
             </div>
@@ -39,7 +38,7 @@ export default memo(function Footer() {
               <h5>On Social</h5>
               <div className='on_social d-flex align-items-center gap-3 mt-3 mt-sm-4'>
                 {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
-                <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
+                <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer"  target="_blank"><FaLinkedinIn /></a>
               </div>
             </div>
           </Col>
