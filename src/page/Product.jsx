@@ -1,19 +1,19 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
 import IndustriesSlider from '../components/RepeatedComponents/SliderView/IndustriesSlider'
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
-import { useNavigate } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 import data from '../data/Product.json'
 
 const Product = () => {
 
     const navigate = useNavigate();
     const goToNotFound = (item) => {
-        navigate('/404', {state : item});
+        navigate('/product/description', { state: item });
     };
-    
+
 
     return (
         <Layout>
@@ -40,16 +40,19 @@ const Product = () => {
                         {
                             data.map((i) =>
                                 <Col lg="4" md="6" sm="12" className='mt-4'>
-                                    <div className='product_card' onClick={() => goToNotFound(i)}>
-                                        <div className='product_img'><img alt='' src={i.img} width="100%" height="100%" /></div>
-                                        <div className='px-3 py-2'>
+                                    <div className='product_card p-3'>
+                                        <div className='mb-4'>
                                             <h5>{i.name}</h5>
+                                            <p className='two-line-ellipsis'>{i.description.def}</p>
                                         </div>
+                                        <div className='product_img'><img alt='' src={i.img} width="100%" height="100%" /></div>
+                                        <Button className='know_more mt-3' onClick={() => goToNotFound(i)}>View Product</Button>
                                     </div>
                                 </Col>
                             )
                         }
                     </Row>
+                    <Outlet />
                 </Container>
             </section>
 

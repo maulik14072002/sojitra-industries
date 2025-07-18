@@ -10,21 +10,21 @@ import Product from './page/Product';
 import Quality from './page/Quality';
 import Contact from './page/Contact';
 import ScrollToTop from './ScrollToTop';
-import Page404 from './page/Page404';
+import ProductDef from './page/ProductDef';
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <ScrollToTop />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/product/description" element={<ProductDef />} />
           <Route path="/quality" element={<Quality />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/404" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
     </>
