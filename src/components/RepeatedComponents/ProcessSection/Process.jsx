@@ -2,14 +2,21 @@ import React from 'react'
 
 import './Process.css'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
 
 const Process = () => {
+
+    const navigate = useNavigate();
+    const goToContact = () => {
+        navigate('/product');
+    };
+
     return (
         <div className='process_main'>
             <div className='process_img'>
                 <div>
                     <h2>Delivering Reliable Industrial Solutions... <br /> When You Need Us, We’re Here.</h2>
-                    <Button className='custom-btn mt-3 px-4 py-2'>Explore Products</Button>
+                    <Button className='custom-btn mt-3 px-4 py-2' onClick={goToContact}>Explore Products</Button>
                 </div>
             </div>
             <div className='process_def'>
