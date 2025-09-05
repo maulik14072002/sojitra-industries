@@ -13,6 +13,7 @@ import Contact from '../components/RepeatedComponents/ContactSection/Contact'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl';
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 export default memo(function Home() {
 
@@ -20,10 +21,41 @@ export default memo(function Home() {
   const goToContact = () => {
     navigate('/contact');
   };
-  
+
 
   return (
     <Layout>
+
+      {/* Page-level SEO */}
+      <Helmet>
+        {/* Title */}
+        <title>Home | Sojitra Industries - Precision Machined Components Manufacturer</title>
+
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Sojitra Industries is a leading manufacturer of precision machined components including brass, stainless steel, and aluminum parts. Explore our high-quality CNC-manufactured components for automotive, electrical, and industrial applications."
+        />
+
+        {/* Optional Keywords */}
+        <meta
+          name="keywords"
+          content="Precision machined components, CNC manufacturing, brass components, stainless steel parts, aluminum components, Sojitra Industries"
+        />
+
+        {/* Open Graph / Social Tags */}
+        <meta property="og:title" content="Home | Sojitra Industries" />
+        <meta
+          property="og:description"
+          content="Leading manufacturer of precision machined components. Sojitra Industries delivers high-quality CNC brass, stainless steel, and aluminum parts for various industries."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sojitraindustries.com/" />
+        <meta property="og:image" content="https://www.sojitraindustries.com/images/home-og.jpg" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://www.sojitraindustries.com/" />
+      </Helmet>
 
       <section className='hero-section'>
         <Container fluid="md">

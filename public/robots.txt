@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for Sojitra Industries
+
+# Allow all search engines to crawl all pages
 User-agent: *
 Disallow:
+
+# Sitemap location
+Sitemap: https://www.sojitraindustries.com/sitemap.xml

@@ -7,10 +7,35 @@ import IndustriesSlider from '../components/RepeatedComponents/SliderView/Indust
 import Founder from '../components/RepeatedComponents/FounderMsg/Founder'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl'
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
+import { Helmet } from 'react-helmet-async'
 
 const About = () => {
   return (
     <Layout>
+
+      {/* Page-level SEO */}
+      <Helmet>
+        <title>About Us | Sojitra Industries</title>
+        <meta
+          name="description"
+          content="Sojitra Industries is a globally trusted manufacturer of precision brass and metal components. Learn about our quality, materials, and founder's vision."
+        />
+        <meta
+          name="keywords"
+          content="Brass components, Stainless Steel parts, Metal precision components, Sojitra Industries, CNC manufacturing"
+        />
+        {/* Open Graph / Social Tags */}
+        <meta property="og:title" content="About Us | Sojitra Industries" />
+        <meta
+          property="og:description"
+          content="Discover Sojitra Industries’ commitment to high-precision metal components and global quality standards."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sojitraindustries.com/about" />
+        {/* Replace this with your actual image */}
+        <meta property="og:image" content="https://www.sojitraindustries.com/images/about-og.jpg" />
+      </Helmet>
+
       <section className='about_section'>
         <Container fluid="md">
           <Row>
@@ -70,7 +95,7 @@ const About = () => {
         </Container>
       </section>
 
-       <section className='industries'>
+      <section className='industries'>
         <Container fluid="md">
           <IndustriesSlider />
         </Container>

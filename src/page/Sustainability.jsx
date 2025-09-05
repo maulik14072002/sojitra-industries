@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-import {  Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { MdStarPurple500 } from 'react-icons/md'
 import { GrChatOption } from 'react-icons/gr'
 import { AiOutlineSafety } from 'react-icons/ai'
@@ -9,10 +9,43 @@ import { RiLightbulbFlashLine } from 'react-icons/ri'
 import { RxValue } from 'react-icons/rx'
 import Contact from '../components/RepeatedComponents/ContactSection/Contact'
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
+import { Helmet } from 'react-helmet-async'
 
 const Sustainability = () => {
     return (
         <Layout>
+
+            {/* Page-level SEO */}
+            <Helmet>
+                {/* Title */}
+                <title>Sustainability | Sojitra Industries - Responsible Manufacturing</title>
+
+                {/* Meta Description */}
+                <meta
+                    name="description"
+                    content="Learn how Sojitra Industries integrates sustainability, ethical practices, and responsible governance in precision component manufacturing to reduce environmental impact and support global communities."
+                />
+
+                {/* Meta Keywords (optional) */}
+                <meta
+                    name="keywords"
+                    content="Sustainability, Responsible Manufacturing, Ethical Practices, Environmental Impact, Sojitra Industries, CNC Components, Precision Machining"
+                />
+
+                {/* Open Graph / Social Tags */}
+                <meta property="og:title" content="Sustainability | Sojitra Industries" />
+                <meta
+                    property="og:description"
+                    content="Sojitra Industries is committed to sustainability, social responsibility, and governance, ensuring environmentally-friendly and ethical manufacturing practices."
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://www.sojitraindustries.com/sustainability" />
+                <meta property="og:image" content="https://www.sojitraindustries.com/images/sustainability-og.jpg" />
+
+                {/* Canonical URL */}
+                <link rel="canonical" href="https://www.sojitraindustries.com/sustainability" />
+            </Helmet>
+
             <section className='sustainability_section'>
                 <Container fluid="md">
                     <Row>

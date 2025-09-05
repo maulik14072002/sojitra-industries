@@ -6,17 +6,49 @@ import IndustriesSlider from '../components/RepeatedComponents/SliderView/Indust
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport'
 import { Outlet, useNavigate } from 'react-router-dom'
 import data from '../data/Product.json'
+import { Helmet } from 'react-helmet-async'
 
 const Product = () => {
 
     const navigate = useNavigate();
     const goToNotFound = (item) => {
-        navigate('/product/description', { state: item });
+        navigate('/product/product-description', { state: item });
     };
 
 
     return (
         <Layout>
+
+            {/* Page-level SEO */}
+            <Helmet>
+                {/* Title */}
+                <title>Products | Sojitra Industries - Precision Brass & Metal Components</title>
+
+                {/* Meta Description */}
+                <meta
+                    name="description"
+                    content="Explore Sojitra Industries’ wide range of precision machined products including brass, stainless steel, and aluminum components trusted across multiple industries."
+                />
+
+                {/* Meta Keywords (optional) */}
+                <meta
+                    name="keywords"
+                    content="Precision machined products, brass components, stainless steel parts, aluminum components, CNC manufactured parts, Sojitra Industries"
+                />
+
+                {/* Open Graph / Social Tags */}
+                <meta property="og:title" content="Products | Sojitra Industries" />
+                <meta
+                    property="og:description"
+                    content="Discover a wide range of high-quality precision machined products from Sojitra Industries, trusted across automotive, electrical, and industrial sectors."
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://www.sojitraindustries.com/products" />
+                <meta property="og:image" content="https://www.sojitraindustries.com/images/products-og.jpg" />
+
+                {/* Canonical URL */}
+                <link rel="canonical" href="https://www.sojitraindustries.com/products" />
+            </Helmet>
 
             <section className='product_section'>
                 <Container fluid="md">

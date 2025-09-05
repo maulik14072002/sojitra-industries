@@ -2,16 +2,46 @@ import React from 'react'
 import Layout from '../components/layout/Layout'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaLinkedinIn } from 'react-icons/fa'
-import { ImFacebook } from 'react-icons/im'
-import { Link } from 'react-router-dom'
 import ContactSub from '../components/RepeatedComponents/ContactSection/Contact'
 import { LiaDonateSolid } from 'react-icons/lia'
 import { BiSupport } from 'react-icons/bi'
 import { SlGraph } from 'react-icons/sl'
+import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
   return (
     <Layout>
+
+      <Helmet>
+        {/* Page Title */}
+        <title>Contact Us | Sojitra Industries</title>
+
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Get in touch with Sojitra Industries for sales inquiries, customer support, or to request a quote for precision brass and metal components."
+        />
+
+        {/* Meta Keywords (optional) */}
+        <meta
+          name="keywords"
+          content="Contact Sojitra Industries, brass components inquiry, stainless steel parts contact, CNC manufacturing support, request quote"
+        />
+
+        {/* Open Graph / Social Tags */}
+        <meta property="og:title" content="Contact Us | Sojitra Industries" />
+        <meta
+          property="og:description"
+          content="Reach out to Sojitra Industries for sales, support, or custom component requests. We provide high-precision metal components globally."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sojitraindustries.com/contact" />
+        <meta property="og:image" content="https://www.sojitraindustries.com/images/contact-og.jpg" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://www.sojitraindustries.com/contact" />
+      </Helmet>
+
       <section className="map-hero">
         <div className='map-vision position-relative'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29507.871884208536!2d70.03373784057466!3d22.41080236952838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39576b4b966b8989%3A0x774d31d43ec04075!2sGIDC%20Phase-2%2C%20Dared%2C%20Jamnagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1749980558350!5m2!1sen!2sin" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='map'></iframe>
@@ -24,7 +54,7 @@ const Contact = () => {
                   <p className='mt-4'>Please feel free to contact us if you have any general questions regarding our components.</p>
                   <div className='on_social d-flex align-items-center gap-3 mt-4'>
                     {/* <Link href='' target="_blank"><ImFacebook /></Link> */}
-                    <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank"><FaLinkedinIn /></a>
+                    <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
                   </div>
                 </div>
               </Col>
@@ -69,7 +99,7 @@ const Contact = () => {
             </Col>
             <Col lg="4" md="6" sm="12" className='mt-4 mt-lg-0'>
               <div className='support_box text-center'>
-                <span><SlGraph   /></span>
+                <span><SlGraph /></span>
                 <h4 className='mt-2'>REQUEST A QUOTE</h4>
                 <p className='mt-2'>Looking for a custom solution? Request a quote today and get a competitive offer tailored to your needs.</p>
               </div>
