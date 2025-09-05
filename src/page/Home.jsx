@@ -12,7 +12,7 @@ import Process from '../components/RepeatedComponents/ProcessSection/Process'
 import Contact from '../components/RepeatedComponents/ContactSection/Contact'
 import QualityControl from '../components/RepeatedComponents/QualityControl/QualityControl';
 import CustomerSupport from '../components/RepeatedComponents/CustomerSupport/CustomerSupport';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default memo(function Home() {
 
@@ -39,64 +39,64 @@ export default memo(function Home() {
               <div className='shadow-cos position-relative'>
                 <Marquee speed={25}>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/1.jpg' />
+                    <img alt="" src='./img/home/hero/1.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/2.jpg' />
+                    <img alt="" src='./img/home/hero/2.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/3.jpg' />
+                    <img alt="" src='./img/home/hero/3.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/4.jpg' />
+                    <img alt="" src='./img/home/hero/4.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/5.jpg' />
+                    <img alt="" src='./img/home/hero/5.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/6.jpg' />
+                    <img alt="" src='./img/home/hero/6.webp' />
                   </div>
                 </Marquee>
 
                 <Marquee direction="right" speed={20}>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/7.jpg' />
+                    <img alt="" src='./img/home/hero/7.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/8.jpg' />
+                    <img alt="" src='./img/home/hero/8.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/9.jpg' />
+                    <img alt="" src='./img/home/hero/9.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/10.jpg' />
+                    <img alt="" src='./img/home/hero/10.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/12.jpg' />
+                    <img alt="" src='./img/home/hero/12.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/13.jpg' />
+                    <img alt="" src='./img/home/hero/13.webp' />
                   </div>
                 </Marquee>
 
                 <Marquee speed={40}>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/14.jpg' />
+                    <img alt="" src='./img/home/hero/14.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/15.jpg' />
+                    <img alt="" src='./img/home/hero/15.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/16.jpg' />
+                    <img alt="" src='./img/home/hero/16.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/17.jpg' />
+                    <img alt="" src='./img/home/hero/17.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/18.jpg' />
+                    <img alt="" src='./img/home/hero/18.webp' />
                   </div>
                   <div className='hero_img'>
-                    <img alt="" src='./img/home/hero/19.jpg' />
+                    <img alt="" src='./img/home/hero/19.webp' />
                   </div>
                 </Marquee>
               </div>

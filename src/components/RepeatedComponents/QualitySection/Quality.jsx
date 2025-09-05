@@ -25,7 +25,7 @@ const Quality = () => {
                 <Col lg={6} md={12}>
                     <div className='standerd_intro mt-lg-0 mt-4'>
                         <h2>GUARANTEED QUALITY</h2>
-                        <p>Sojitra Industries ensures product quality through strict Quality Assurance and Control, minimizing errors and meeting customer specifications. With support from Shiv Om, we enhance skills through training and deliver exceptional service worldwide.</p>
+                        <p>Sojitra Industries upholds the highest standards of quality through rigorous Quality Assurance and Control processes, ensuring precision, reliability, and full compliance with customer specifications. Our continuous skill development and training programs enable us to consistently deliver superior products and exceptional service worldwide.</p>
                         <ul className='mt-4'>
                             <li>Weekly checks</li>
                             <li>Technological assisted operations</li>

@@ -44,7 +44,7 @@ const CustomerSupport = () => {
             >
                 <SwiperSlide>
                     <div className='support_box position-relative'>
-                        <figure className='our_prd_img'><img alt='' src='/img/product/cs1.jpg' /></figure>
+                        <figure className='our_prd_img'><img alt='' src='/img/product/CustomerSupport/Quality-core.webp' /></figure>
                         <div className='our_prd_def'>
                             <h5 className='mb-2'>
                                 01 / Quality at Core
@@ -55,7 +55,7 @@ const CustomerSupport = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='support_box position-relative'>
-                        <figure className='our_prd_img'><img alt='' src='/img/product/cs2.jpg' /></figure>
+                        <figure className='our_prd_img'><img alt='' src='/img/product/CustomerSupport/System-driven-operations.webp' /></figure>
                         <div className='our_prd_def'>
                             <h5 className='mb-2'>
                                 02 / System driven operations
@@ -66,7 +66,7 @@ const CustomerSupport = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='support_box position-relative'>
-                        <figure className='our_prd_img'><img alt='' src='/img/product/cs3.jpeg' /></figure>
+                        <figure className='our_prd_img'><img alt='' src='/img/product/CustomerSupport/Manufacturing-powerhouse.webp' /></figure>
                         <div className='our_prd_def'>
                             <h5 className='mb-2'>
                                 03 / Manufacturing Powerhouse
@@ -77,7 +77,7 @@ const CustomerSupport = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='support_box position-relative'>
-                        <figure className='our_prd_img'><img alt='' src='/img/product/cs4.jpg' /></figure>
+                        <figure className='our_prd_img'><img alt='' src='/img/product/CustomerSupport/Remarkable-capabilities.webp' /></figure>
                         <div className='our_prd_def'>
                             <h5 className='mb-2'>
                                 04 / Remarkable R&D capabilities
@@ -88,7 +88,7 @@ const CustomerSupport = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='support_box position-relative'>
-                        <figure className='our_prd_img'><img alt='' src='/img/product/cs5.jpg' /></figure>
+                        <figure className='our_prd_img'><img alt='' src='/img/product/CustomerSupport/Customization-beyond.webp' /></figure>
                         <div className='our_prd_def'>
                             <h5 className='mb-2'>
                                 05 / Customization beyond limits

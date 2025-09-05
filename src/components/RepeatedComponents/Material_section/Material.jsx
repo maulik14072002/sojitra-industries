@@ -13,7 +13,7 @@ const Material = () => {
             <Row className='mt-4'>
                 <Col lg="3" md="6" sm="12">
                     <div className='material_box'>
-                        <img src='./img/about/brass.jpg' width="100%" height="180px" alt='materials' />
+                        <img src='./img/about/brass.webp' width="100%" height="180px" alt='materials' />
                         <div className='px-3 py-2'>
                             <h5>Brass</h5>
                         </div>
@@ -21,7 +21,7 @@ const Material = () => {
                 </Col>
                 <Col lg="3" md="6" sm="12" className='mt-4 mt-md-0'>
                     <div className='material_box'>
-                        <img src='./img/about/copper.jpeg' width="100%" height="180px" alt='materials' />
+                        <img src='./img/about/copper.webp' width="100%" height="180px" alt='materials' />
                         <div className='px-3 py-2'>
                             <h5>Copper</h5>
                         </div>
@@ -29,7 +29,7 @@ const Material = () => {
                 </Col>
                 <Col lg="3" md="6" sm="12" className='mt-4 mt-lg-0'>
                     <div className='material_box'>
-                        <img src='./img/about/ss.jpg' width="100%" height="180px" alt='materials' />
+                        <img src='./img/about/ss.webp' width="100%" height="180px" alt='materials' />
                         <div className='px-3 py-2'>
                             <h5>Stainless Steel</h5>
                         </div>
@@ -37,7 +37,7 @@ const Material = () => {
                 </Col>
                 <Col lg="3" md="6" sm="12" className='mt-4 mt-lg-0'>
                     <div className='material_box'>
-                        <img src='./img/about/aluminium.jpg' width="100%" height="180px" alt='materials' />
+                        <img src='./img/about/aluminium.webp' width="100%" height="180px" alt='materials' />
                         <div className='px-3 py-2'>
                             <h5>Aluminium</h5>
                         </div>

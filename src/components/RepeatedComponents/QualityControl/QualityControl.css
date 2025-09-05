@@ -19,19 +19,19 @@
 }
 
 .quality_control_img1 {
-    background-image: url(../../../../public/img/product/pro1.jpg);
+    background-image: url(../../../../public/img/product/QualityControl/Material-selection.webp);
 }
 
 .quality_control_img2 {
-    background-image: url(../../../../public/img/product/pro2.jpg);
+    background-image: url(../../../../public/img/product/QualityControl/Casting-extruding.webp);
 }
 
 .quality_control_img3 {
-    background-image: url(../../../../public/img/product/pro3.jpeg);
+    background-image: url(../../../../public/img/product/QualityControl/Machining-and-shaping.webp);
 }
 
 .quality_control_img4 {
-    background-image: url(../../../../public/img/product/pro4.jpg);
+    background-image: url(../../../../public/img/product/QualityControl/Finishing-and-polishing.webp);
 }
 
 .quality_control_title h2 {

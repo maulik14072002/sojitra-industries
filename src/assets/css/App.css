@@ -150,7 +150,7 @@ p {
 .shadow-cos::after {
     content: "";
     position: absolute;
-    background-image: url(../../../public/img/home/hero/shadow.png);
+    background-image: url(../../../public/img/home/hero/shadow.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -163,7 +163,7 @@ p {
 .shadow-cos::before {
     content: "";
     position: absolute;
-    background-image: url(../../../public/img/home/hero/shadow.png);
+    background-image: url(../../../public/img/home/hero/shadow.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -307,7 +307,7 @@ p {
     height: 400px;
     display: flex;
     align-items: center;
-    background-image: url(../../../public/img/about/cs2.png);
+    background-image: url(../../../public/img/about/about-banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -349,7 +349,7 @@ p {
 .business_section .company_img {
     height: 100%;
     width: 100%;
-    background-image: url(../../../public/img/about/business1.jpg);
+    background-image: url(../../../public/img/about/factory.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -456,7 +456,7 @@ p {
     height: 400px;
     display: flex;
     align-items: center;
-    background-image: url(../../../public/img/sustainability/sustainability.png);
+    background-image: url(../../../public/img/sustainability/sustainability-banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 20%;
@@ -536,7 +536,7 @@ p {
     height: 400px;
     display: flex;
     align-items: center;
-    background-image: url(../../../public/img/product/product.png);
+    background-image: url(../../../public/img/product/product-banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
