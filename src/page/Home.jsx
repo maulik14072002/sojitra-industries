@@ -29,7 +29,7 @@ export default memo(function Home() {
       {/* Page-level SEO */}
       <Helmet>
         {/* Title */}
-        <title>Home | Sojitra Industries - Precision Machined Components Manufacturer</title>
+        <title>Sojitra Industries - Precision Machined Components Manufacturer</title>
 
         {/* Meta Description */}
         <meta
@@ -44,7 +44,7 @@ export default memo(function Home() {
         />
 
         {/* Open Graph / Social Tags */}
-        <meta property="og:title" content="Home | Sojitra Industries" />
+        <meta property="og:title" content="Sojitra Industries" />
         <meta
           property="og:description"
           content="Leading manufacturer of precision machined components. Sojitra Industries delivers high-quality CNC brass, stainless steel, and aluminum parts for various industries."
