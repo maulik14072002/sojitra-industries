@@ -38,7 +38,7 @@ export default memo(function Footer() {
               <h5>On Social</h5>
               <div className='on_social d-flex align-items-center gap-3 mt-3 mt-sm-4'>
                 {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
-                <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer"  target="_blank"><FaLinkedinIn /></a>
+                <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
               </div>
             </div>
           </Col>
@@ -55,6 +55,13 @@ export default memo(function Footer() {
         </Row>
 
       </Container>
+      <div className='copyright mt-4 py-2'>
+        <Container fluid="md">
+          <p>
+            Copyright © {new Date().getFullYear()} Sojitra Industries. All Rights Reserved.
+          </p>
+        </Container>
+      </div>
     </div>
   )
 })
