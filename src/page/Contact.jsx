@@ -62,7 +62,7 @@ const Contact = () => {
                 <div className='contact_def'>
                   <h4>CONTACT</h4>
                   <ul className='mt-4 ps-3'>
-                    <li>Phae - 2, GIDC, Dared</li>
+                    <li>Phase - 2, GIDC, Dared</li>
                     <li>Jamnagar - 361005, Gujarat</li>
                     <li>sales@sojitraindustries.com</li>
                     <li>+91 72039 76604</li>
