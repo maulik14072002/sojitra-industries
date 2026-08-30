@@ -14,32 +14,32 @@ const Contact = () => {
 
       <Helmet>
         {/* Page Title */}
-        <title>Contact Us | Sojitra Industries</title>
+        <title>Contact Us | MSH Metal Craft</title>
 
         {/* Meta Description */}
         <meta
           name="description"
-          content="Get in touch with Sojitra Industries for sales inquiries, customer support, or to request a quote for precision brass and metal components."
+          content="Get in touch with MSH Metal Craft for sales inquiries, customer support, or to request a quote for precision brass and metal components."
         />
 
         {/* Meta Keywords (optional) */}
         <meta
           name="keywords"
-          content="Contact Sojitra Industries, brass components inquiry, stainless steel parts contact, CNC manufacturing support, request quote"
+          content="Contact MSH Metal Craft, brass components inquiry, stainless steel parts contact, CNC manufacturing support, request quote"
         />
 
         {/* Open Graph / Social Tags */}
-        <meta property="og:title" content="Contact Us | Sojitra Industries" />
+        <meta property="og:title" content="Contact Us | MSH Metal Craft" />
         <meta
           property="og:description"
-          content="Reach out to Sojitra Industries for sales, support, or custom component requests. We provide high-precision metal components globally."
+          content="Reach out to MSH Metal Craft for sales, support, or custom component requests. We provide high-precision metal components globally."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sojitraindustries.com/contact" />
-        <meta property="og:image" content="https://www.sojitraindustries.com/images/contact-og.jpg" />
+        <meta property="og:url" content="https://www.mshmetalcraft.com/contact" />
+        <meta property="og:image" content="https://www.mshmetalcraft.com/images/contact-og.jpg" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.sojitraindustries.com/contact" />
+        <link rel="canonical" href="https://www.mshmetalcraft.com/contact" />
       </Helmet>
 
       <section className="map-hero">
@@ -50,11 +50,11 @@ const Contact = () => {
             <Row>
               <Col lg="6" md="6">
                 <div className='company_contact'>
-                  <img src='/img/logo/sojitra-company.png' alt='' width="150px" />
+                  <img src='/img/logo/MSH_logo.png' alt='' width="100px" />
                   <p className='mt-4'>Please feel free to contact us if you have any general questions regarding our components.</p>
                   <div className='on_social d-flex align-items-center gap-3 mt-4'>
                     {/* <Link href='' target="_blank"><ImFacebook /></Link> */}
-                    <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+                    {/* <a href='https://www.linkedin.com/company/sojitraindustry/' target="_blank" rel="noreferrer"><FaLinkedinIn /></a> */}
                   </div>
                 </div>
               </Col>
@@ -62,9 +62,10 @@ const Contact = () => {
                 <div className='contact_def'>
                   <h4>CONTACT</h4>
                   <ul className='mt-4 ps-3'>
-                    <li>Phase - 2, GIDC, Dared</li>
-                    <li>Jamnagar - 361005, Gujarat</li>
-                    <li>sales@sojitraindustries.com</li>
+                    <li>First Floor, RS NO.90/P-2, Plot No.1/4, Gala No. 7</li>
+                    <li>Heritage Industrial Estate, Rajkot Khambhaliya Highway</li>
+                    <li>Kansumra, Jamnagar, Gujarat, 361005</li>
+                    <li>maulik@mshmetalcraft.com</li>
                     <li>+91 72039 76604</li>
                   </ul>
                 </div>

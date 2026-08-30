@@ -18,7 +18,7 @@ const Relation = () => {
                 <div className='relation_box'>
                     <div>
                         <h2>WE BUILD STRONG RELATIONSHIPS WITH OUR CLIENTS</h2>
-                        <p>At Sojitra Industries, we believe that strong client relationships are the foundation of sustainable success. We don’t just deliver precision-engineered components — we deliver trust, consistency, and partnership. By understanding our clients’ unique needs and maintaining open, honest communication, we ensure long-term collaboration and mutual growth. </p>
+                        <p>At MSH Metal Craft, we believe that strong client relationships are the foundation of sustainable success. We don’t just deliver precision-engineered components — we deliver trust, consistency, and partnership. By understanding our clients’ unique needs and maintaining open, honest communication, we ensure long-term collaboration and mutual growth. </p>
                         {/* Our commitment to quality, reliability, and responsiveness has earned us the confidence of industry leaders across electrical, electronics, automotive, and other sectors. We’re not just suppliers — we’re partners in progress. */}
                         <Button className='cos_btn mt-4 d-flex align-items-center gap-2' onClick={goToAbout}>
                             <span><FcAbout /></span>
@@ -38,7 +38,7 @@ const Relation = () => {
                             <div className='relation_box'>
                                 <div className='pt-4'>
                                     <h2>WE BUILD STRONG RELATIONSHIPS WITH OUR CLIENTS</h2>
-                                    <p>At Sojitra Industries, we believe that strong client relationships are the foundation of sustainable success. We don’t just deliver precision-engineered components — we deliver trust, consistency, and partnership. By understanding our clients’ unique needs and maintaining open, honest communication, we ensure long-term collaboration and mutual growth. </p>
+                                    <p>At MSH Metal Craft, we believe that strong client relationships are the foundation of sustainable success. We don’t just deliver precision-engineered components — we deliver trust, consistency, and partnership. By understanding our clients’ unique needs and maintaining open, honest communication, we ensure long-term collaboration and mutual growth. </p>
                                     {/* Our commitment to quality, reliability, and responsiveness has earned us the confidence of industry leaders across electrical, electronics, automotive, and other sectors. We’re not just suppliers — we’re partners in progress. */}
                                     <Button className='cos_btn mt-4 d-flex align-items-center gap-2'>
                                         <span><FcAbout /></span>

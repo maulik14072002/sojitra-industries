@@ -22,32 +22,32 @@ const Product = () => {
             {/* Page-level SEO */}
             <Helmet>
                 {/* Title */}
-                <title>Products | Sojitra Industries - Precision Brass & Metal Components</title>
+                <title>Products | MSH Metal Craft - Precision Brass & Metal Components</title>
 
                 {/* Meta Description */}
                 <meta
                     name="description"
-                    content="Explore Sojitra Industries’ wide range of precision machined products including brass, stainless steel, and aluminum components trusted across multiple industries."
+                    content="Explore MSH Metal Craft’ wide range of precision machined products including brass, stainless steel, and aluminum components trusted across multiple industries."
                 />
 
                 {/* Meta Keywords (optional) */}
                 <meta
                     name="keywords"
-                    content="Precision machined products, brass components, stainless steel parts, aluminum components, CNC manufactured parts, Sojitra Industries"
+                    content="Precision machined products, brass components, stainless steel parts, aluminum components, CNC manufactured parts, MSH Metal Craft"
                 />
 
                 {/* Open Graph / Social Tags */}
-                <meta property="og:title" content="Products | Sojitra Industries" />
+                <meta property="og:title" content="Products | MSH Metal Craft" />
                 <meta
                     property="og:description"
-                    content="Discover a wide range of high-quality precision machined products from Sojitra Industries, trusted across automotive, electrical, and industrial sectors."
+                    content="Discover a wide range of high-quality precision machined products from MSH Metal Craft, trusted across automotive, electrical, and industrial sectors."
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.sojitraindustries.com/products" />
-                <meta property="og:image" content="https://www.sojitraindustries.com/images/products-og.jpg" />
+                <meta property="og:url" content="https://www.mshmetalcraft.com/products" />
+                <meta property="og:image" content="https://www.mshmetalcraft.com/images/products-og.jpg" />
 
                 {/* Canonical URL */}
-                <link rel="canonical" href="https://www.sojitraindustries.com/products" />
+                <link rel="canonical" href="https://www.mshmetalcraft.com/products" />
             </Helmet>
 
             <section className='product_section'>
@@ -56,7 +56,7 @@ const Product = () => {
                         <Col lg="6">
                             <div>
                                 <h1>A wide range of products used across multiple industries.</h1>
-                                <p>Sojitra Industries offers a wide range of products trusted across multiple industrial sectors.</p>
+                                <p>MSH Metal Craft offers a wide range of products trusted across multiple industrial sectors.</p>
                             </div>
                         </Col>
                     </Row>

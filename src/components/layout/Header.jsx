@@ -24,12 +24,12 @@ export default memo(function Header() {
           <Container fluid="md">
             <div className='logo py-2 d-flex align-items-center justify-content-between'>
               <NavLink to={{ pathname: "/" }}>
-                <img src="/img/logo/sojitra-company.png" alt='sojitra-insutries' width="190px" />
+                <img src="/img/logo/MSH_logo.png" alt='MSH Metal Craft' width="120px" />
               </NavLink>
               <div className='d-flex align-items-center gap-4'>
                 <div className='on_social d-flex align-items-center gap-3'>
                   {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
-                  <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
+                  {/* <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a> */}
                 </div>
                 <Button className='get-in-touch custom-btn' onClick={goToContact}>GET IN TOUCH</Button>
                 <Button className='menu-btn' onClick={handleShow}><RiMenu3Line /></Button>

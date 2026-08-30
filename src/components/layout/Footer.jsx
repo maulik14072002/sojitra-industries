@@ -10,8 +10,8 @@ export default memo(function Footer() {
         <Row className='justify-content-center'>
           <Col xl="3" lg="3" md="6" sm="12">
             <div className='footer_def'>
-              <img src='/img/logo/sojitra-company.png' alt='sojitra industires' width="200px" />
-              <p>Sojitra Industries delivers precision-engineered components worldwide, uniting advanced manufacturing with uncompromising quality.</p>
+              <img src='/img/logo/MSH_logo.png' alt='MSH Metal Craft' width="100px" />
+              <p>MSH Metal Craft delivers precision-engineered components worldwide, uniting advanced manufacturing with uncompromising quality.</p>
             </div>
           </Col>
           <Col xl="2" lg="3" md="6" sm="12" className='mt-4 mt-md-0'>
@@ -30,7 +30,7 @@ export default memo(function Footer() {
             <div className='footer_menu'>
               <h5>Contact Us</h5>
               <p className='mt-3 mt-sm-4 footer_contact_text'>+91 7203976604</p>
-              <p className='footer_contact_text mt-2'>sales@sojitraindustry.com</p>
+              <p className='footer_contact_text mt-2'>maulik@mshmetalcraft.com</p>
             </div>
           </Col>
           <Col xl="2" lg="2" md="6" sm="12" className='mt-4 mt-lg-0'>
@@ -38,7 +38,7 @@ export default memo(function Footer() {
               <h5>On Social</h5>
               <div className='on_social d-flex align-items-center gap-3 mt-3 mt-sm-4'>
                 {/* <a href='https://www.facebook.com/share/1G7NiTWjzo/' target="_blank"><ImFacebook /></a> */}
-                <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
+                {/* <a href='https://www.linkedin.com/company/sojitraindustry/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a> */}
               </div>
             </div>
           </Col>
@@ -58,7 +58,7 @@ export default memo(function Footer() {
       <div className='copyright mt-4 py-2'>
         <Container fluid="md">
           <p>
-            Copyright © {new Date().getFullYear()} Sojitra Industries. All Rights Reserved.
+            Copyright © {new Date().getFullYear()} MSH Metal Craft. All Rights Reserved.
           </p>
         </Container>
       </div>

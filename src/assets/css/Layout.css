@@ -129,11 +129,9 @@
     .logo {
         height: 60px;
     }
-}
 
-@media (max-width: 425px) {
     .logo img {
-        width: 150px;
+        width: 90px;
     }
 }
 

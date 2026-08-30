@@ -17,7 +17,7 @@ const Contact = () => {
         <Col lg="8" md="7" sm="12">
           <div className='contact_intro'>
             <h2>Precision Manufacturing. Global Presence.</h2>
-            <p>At Sojitra Industries, we combine advanced manufacturing techniques with strict quality control to deliver precision-engineered components.With a global footprint, we proudly serve clients across diverse industries and international markets.</p>
+            <p>At MSH Metal Craft, we combine advanced manufacturing techniques with strict quality control to deliver precision-engineered components.With a global footprint, we proudly serve clients across diverse industries and international markets.</p>
             <Button className='custom-btn mt-3' onClick={goToContact}>Contact Us</Button>
           </div>
         </Col>
@@ -33,7 +33,7 @@ const Contact = () => {
           </div>
           <div className='contact_def mt-4'>
             <h5>Email</h5>
-            <p>sales@sojitraindustries.com</p>
+            <p>maulik@mshmetalcraft.com</p>
           </div>
           <div className='contact_def mt-4'>
             <h5>Contact phone</h5>

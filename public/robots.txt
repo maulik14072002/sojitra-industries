@@ -5,4 +5,4 @@ User-agent: *
 Disallow:
 
 # Sitemap location
-Sitemap: https://www.sojitraindustries.com/sitemap.xml
+Sitemap: https://www.mshmetalcraft.com/sitemap.xml

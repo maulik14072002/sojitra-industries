@@ -13,7 +13,7 @@ const ProductDef = () => {
 
       {/* Dynamic SEO */}
       <Helmet>
-        <title>{product.name} | Sojitra Industries - Precision Machined Components</title>
+        <title>{product.name} | MSH Metal Craft - Precision Machined Components</title>
 
         <meta
           name="description"
@@ -25,11 +25,11 @@ const ProductDef = () => {
 
         <meta
           name="keywords"
-          content={`Sojitra Industries, ${product.name}, precision machined components, brass, stainless steel, aluminum`}
+          content={`MSH Metal Craft, ${product.name}, precision machined components, brass, stainless steel, aluminum`}
         />
 
         {/* Open Graph */}
-        <meta property="og:title" content={`${product.name} | Sojitra Industries`} />
+        <meta property="og:title" content={`${product.name} | MSH Metal Craft`} />
         <meta
           property="og:description"
           content={product.description.def.length > 150

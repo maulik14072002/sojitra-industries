@@ -29,32 +29,32 @@ export default memo(function Home() {
       {/* Page-level SEO */}
       <Helmet>
         {/* Title */}
-        <title>Sojitra Industries - Precision Machined Components Manufacturer</title>
+        <title>MSH Metal Craft - Precision Machined Components Manufacturer</title>
 
         {/* Meta Description */}
         <meta
           name="description"
-          content="Sojitra Industries is a leading manufacturer of precision machined components including brass, stainless steel, and aluminum parts. Explore our high-quality CNC-manufactured components for automotive, electrical, and industrial applications."
+          content="MSH Metal Craft is a leading manufacturer of precision machined components including brass, stainless steel, and aluminum parts. Explore our high-quality CNC-manufactured components for automotive, electrical, and industrial applications."
         />
 
         {/* Optional Keywords */}
         <meta
           name="keywords"
-          content="Precision machined components, CNC manufacturing, brass components, stainless steel parts, aluminum components, Sojitra Industries"
+          content="Precision machined components, CNC manufacturing, brass components, stainless steel parts, aluminum components, MSH Metal Craft"
         />
 
         {/* Open Graph / Social Tags */}
-        <meta property="og:title" content="Sojitra Industries" />
+        <meta property="og:title" content="MSH Metal Craft" />
         <meta
           property="og:description"
-          content="Leading manufacturer of precision machined components. Sojitra Industries delivers high-quality CNC brass, stainless steel, and aluminum parts for various industries."
+          content="Leading manufacturer of precision machined components. MSH Metal Craft delivers high-quality CNC brass, stainless steel, and aluminum parts for various industries."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sojitraindustries.com/" />
-        <meta property="og:image" content="https://www.sojitraindustries.com/images/home-og.jpg" />
+        <meta property="og:url" content="https://www.mshmetalcraft.com/" />
+        <meta property="og:image" content="https://www.mshmetalcraft.com/images/home-og.jpg" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.sojitraindustries.com/" />
+        <link rel="canonical" href="https://www.mshmetalcraft.com/" />
       </Helmet>
 
       <section className='hero-section'>

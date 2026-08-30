@@ -19,7 +19,7 @@ const Service = () => {
       <Row>
         <Col lg={8} md={12}>
           <h2>Trusted Authority in Machined Precision Parts</h2>
-          <p>With a reputation for excellence and innovation, Sojitra Industries specializes in high-precision machined components made from ferrous and non-ferrous metals. Trusted by leaders in the electrical, electronics, automotive, and other industries, we are committed to quality, reliability, and engineering precision. Backed by advanced technology and skilled professionals, we deliver durable components that meet the highest performance standards.</p>
+          <p>With a reputation for excellence and innovation, MSH Metal Craft specializes in high-precision machined components made from ferrous and non-ferrous metals. Trusted by leaders in the electrical, electronics, automotive, and other industries, we are committed to quality, reliability, and engineering precision. Backed by advanced technology and skilled professionals, we deliver durable components that meet the highest performance standards.</p>
           <Button className='brochure-btn cos_btn mt-4 d-flex align-items-center gap-2' onClick={openPDF}>
             <span><IoFileTrayFullOutline /></span>
             Company Profile
@@ -28,16 +28,16 @@ const Service = () => {
         <Col lg={4} md={12}>
           <div className='service_list mt-lg-0 mt-4'>
             <ul>
-              <li>Full opariting system 24/7 active</li>
+              <li>24/7 Operations & Customer Support</li>
               <li>Based in Jamnagar, India</li>
-              <li>More than 50 machines types</li>
+              <li>More than 50 types of machines</li>
               <li>Customized Products</li>
-              <li>A Simple and Effective Transparent Pricing Structure</li>
+              <li>Competitive Pricing for Every Requirement</li>
               <li>The Dexterous Team of Professionals</li>
-              <li>Special Price for Mass Production</li>
+              <li>Competitive Pricing for Mass Production</li>
               <li>Stringent Quality Measures</li>
               <li>Tamper-Proof Packaging and On-Time Delivery</li>
-              <li>Supporting Customer for Reverse Engineering</li>
+              <li>Reverse Engineering Support</li>
             </ul>
           </div>
         </Col>

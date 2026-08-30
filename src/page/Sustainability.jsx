@@ -18,32 +18,32 @@ const Sustainability = () => {
             {/* Page-level SEO */}
             <Helmet>
                 {/* Title */}
-                <title>Sustainability | Sojitra Industries - Responsible Manufacturing</title>
+                <title>Sustainability | MSH Metal Craft - Responsible Manufacturing</title>
 
                 {/* Meta Description */}
                 <meta
                     name="description"
-                    content="Learn how Sojitra Industries integrates sustainability, ethical practices, and responsible governance in precision component manufacturing to reduce environmental impact and support global communities."
+                    content="Learn how MSH Metal Craft integrates sustainability, ethical practices, and responsible governance in precision component manufacturing to reduce environmental impact and support global communities."
                 />
 
                 {/* Meta Keywords (optional) */}
                 <meta
                     name="keywords"
-                    content="Sustainability, Responsible Manufacturing, Ethical Practices, Environmental Impact, Sojitra Industries, CNC Components, Precision Machining"
+                    content="Sustainability, Responsible Manufacturing, Ethical Practices, Environmental Impact, MSH Metal Craft, CNC Components, Precision Machining"
                 />
 
                 {/* Open Graph / Social Tags */}
-                <meta property="og:title" content="Sustainability | Sojitra Industries" />
+                <meta property="og:title" content="Sustainability | MSH Metal Craft" />
                 <meta
                     property="og:description"
-                    content="Sojitra Industries is committed to sustainability, social responsibility, and governance, ensuring environmentally-friendly and ethical manufacturing practices."
+                    content="MSH Metal Craft is committed to sustainability, social responsibility, and governance, ensuring environmentally-friendly and ethical manufacturing practices."
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.sojitraindustries.com/sustainability" />
-                <meta property="og:image" content="https://www.sojitraindustries.com/images/sustainability-og.jpg" />
+                <meta property="og:url" content="https://www.mshmetalcraft.com/sustainability" />
+                <meta property="og:image" content="https://www.mshmetalcraft.com/images/sustainability-og.jpg" />
 
                 {/* Canonical URL */}
-                <link rel="canonical" href="https://www.sojitraindustries.com/sustainability" />
+                <link rel="canonical" href="https://www.mshmetalcraft.com/sustainability" />
             </Helmet>
 
             <section className='sustainability_section'>
@@ -52,7 +52,7 @@ const Sustainability = () => {
                         <Col lg="12" md="12">
                             <div className=''>
                                 <h1>Sustainability</h1>
-                                <p>Sojitra Industries' core values guide our daily decisions, enabling us to deliver sustainable solutions for our global community.</p>
+                                <p>MSH Metal Craft' core values guide our daily decisions, enabling us to deliver sustainable solutions for our global community.</p>
                             </div>
                         </Col>
                     </Row>
@@ -65,19 +65,19 @@ const Sustainability = () => {
                         <Col lg='4' md="6" sm="12" >
                             <div className='impact_box'>
                                 <h4>Environmental Impact</h4>
-                                <p>At Sojitra Industries, we are committed to delivering smart, reliable solutions to our customers. Our precision-engineered products are designed to enhance operational efficiency while supporting sustainability goals. Through a streamlined manufacturing strategy, we actively eliminate waste and minimize environmental impact.</p>
+                                <p>At MSH Metal Craft, we are committed to delivering smart, reliable solutions to our customers. Our precision-engineered products are designed to enhance operational efficiency while supporting sustainability goals. Through a streamlined manufacturing strategy, we actively eliminate waste and minimize environmental impact.</p>
                             </div>
                         </Col>
                         <Col lg='4' md="6" sm="12" className='mt-4 mt-md-0'>
                             <div className='impact_box'>
                                 <h4>Social Responsibility</h4>
-                                <p>At Sojitra Industries, we pursue growth by continually improving and expanding our high-quality product offerings. We are dedicated to exceeding customer expectations, conducting our business with integrity, and fostering a culture of care and respect for our team members.</p>
+                                <p>At MSH Metal Craft, we pursue growth by continually improving and expanding our high-quality product offerings. We are dedicated to exceeding customer expectations, conducting our business with integrity, and fostering a culture of care and respect for our team members.</p>
                             </div>
                         </Col>
                         <Col lg='4' md="6" sm="12" className='mt-4 mt-lg-0'>
                             <div className='impact_box'>
                                 <h4>Governance</h4>
-                                <p>At Sojitra Industries, we are committed to excellence in every aspect of our business. Integrity is a foundational pillar of our identity. We adhere strictly to all international and local laws and regulations in every country where we operate.</p>
+                                <p>At MSH Metal Craft, we are committed to excellence in every aspect of our business. Integrity is a foundational pillar of our identity. We adhere strictly to all international and local laws and regulations in every country where we operate.</p>
                             </div>
                         </Col>
                     </Row>
@@ -88,7 +88,7 @@ const Sustainability = () => {
                 <Container fluid="md">
                     <div className='global_title'>
                         <h2>Global Responsibility</h2>
-                        <p>As a global company, Sojitra Industries understands that our actions today shape the world for generations to come. With this profound awareness, our core values integrate sustainability, ethical practices, and responsible governance into the foundation of our innovation, operations, and customer service.</p>
+                        <p>As a global company, MSH Metal Craft understands that our actions today shape the world for generations to come. With this profound awareness, our core values integrate sustainability, ethical practices, and responsible governance into the foundation of our innovation, operations, and customer service.</p>
                     </div>
 
                     <Row className='justify-content-center'>

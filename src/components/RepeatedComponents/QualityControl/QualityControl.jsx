@@ -16,7 +16,7 @@ const QualityControl = () => {
 
             <div className='quality_control_title text-center'>
                 <h2>Precision-Crafted Brass Components for Every Industry</h2>
-                <p>At Sojitra Industries, our commitment to excellence begins with a meticulous, precision-driven manufacturing process—transforming high-quality raw materials into a wide range of premium brass components trusted across industries.</p>
+                <p>At MSH Metal Craft, our commitment to excellence begins with a meticulous, precision-driven manufacturing process—transforming high-quality raw materials into a wide range of premium brass components trusted across industries.</p>
             </div>
 
             <Row className='mt-4 mt-sm-5'>

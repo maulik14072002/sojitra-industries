@@ -18,19 +18,19 @@ const Quality = () => {
                                 </div>
                                 <span>GUARANTEED</span>
                             </div>
-                            <p className='standers_def'>Sojitra Industries is committed to delivering high-quality products and services. We continually enhance our processes to ensure customer satisfaction.</p>
+                            <p className='standers_def'>MSH Metal Craft is committed to delivering high-quality products and services. We continually enhance our processes to ensure customer satisfaction.</p>
                         </div>
                     </div>
                 </Col>
                 <Col lg={6} md={12}>
                     <div className='standerd_intro mt-lg-0 mt-4'>
                         <h2>GUARANTEED QUALITY</h2>
-                        <p>Sojitra Industries upholds the highest standards of quality through rigorous Quality Assurance and Control processes, ensuring precision, reliability, and full compliance with customer specifications. Our continuous skill development and training programs enable us to consistently deliver superior products and exceptional service worldwide.</p>
+                        <p>MSH Metal Craft upholds the highest standards of quality through rigorous Quality Assurance and Control processes, ensuring precision, reliability, and full compliance with customer specifications. Our continuous skill development and training programs enable us to consistently deliver superior products and exceptional service worldwide.</p>
                         <ul className='mt-4'>
-                            <li>Weekly checks</li>
-                            <li>Technological assisted operations</li>
-                            <li>Renovable products from the scratch</li>
-                            <li>Security for employees</li>
+                            <li>Weekly quality checks</li>
+                            <li>Technology-assisted operations</li>
+                            <li>Products developed from scratch</li>
+                            <li>Employee safety</li>
                             <li>Only the best materials</li>
                         </ul>
                     </div>

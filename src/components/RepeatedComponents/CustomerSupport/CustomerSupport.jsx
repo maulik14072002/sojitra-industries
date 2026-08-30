@@ -10,7 +10,7 @@ const CustomerSupport = () => {
         <div>
             <div className='customer_support_header text-center'>
                 <h2 className='mb-2'>Defining Excellence in Quality and Customer Satisfaction</h2>
-                <p>Sojitra Industries delivers precision-engineered components backed by strict quality control and a customer-first approach—ensuring reliability, consistency, and long-term trust.</p>
+                <p>MSH Metal Craft delivers precision-engineered components backed by strict quality control and a customer-first approach—ensuring reliability, consistency, and long-term trust.</p>
             </div>
 
             <Swiper
@@ -49,7 +49,7 @@ const CustomerSupport = () => {
                             <h5 className='mb-2'>
                                 01 / Quality at Core
                             </h5>
-                            <p>At Sojitra Industries, quality is our core focus—driven by a commitment to outperform industry standards while promoting sustainable manufacturing practices.</p>
+                            <p>At MSH Metal Craft, quality is our core focus—driven by a commitment to outperform industry standards while promoting sustainable manufacturing practices.</p>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -60,7 +60,7 @@ const CustomerSupport = () => {
                             <h5 className='mb-2'>
                                 02 / System driven operations
                             </h5>
-                            <p>Sojitra Industries’ growth is driven by efficient, system-based operations. These ensure consistent quality and reliable delivery of our products.</p>
+                            <p>MSH Metal Craft’ growth is driven by efficient, system-based operations. These ensure consistent quality and reliable delivery of our products.</p>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -71,7 +71,7 @@ const CustomerSupport = () => {
                             <h5 className='mb-2'>
                                 03 / Manufacturing Powerhouse
                             </h5>
-                            <p>Sojitra Industries’ robust manufacturing capacity makes us the preferred choice for brass solutions. We deliver products tailored to your specific requirements.</p>
+                            <p>MSH Metal Craft’ robust manufacturing capacity makes us the preferred choice for brass solutions. We deliver products tailored to your specific requirements.</p>
                         </div>
                     </div>
                 </SwiperSlide>
